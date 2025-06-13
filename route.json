@@ -15,7 +15,9 @@
       "geosite:telegram",
       "geosite:twitter",
       "geosite:tor"
-    ]
+    ],
+    "enabled": true,
+    "remarks": "precise_proxy_domain"
   },
   {
     "port": "0-65535",
