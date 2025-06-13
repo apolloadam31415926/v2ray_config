@@ -1,5 +1,15 @@
 [
   {
+    "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "block ads"
+  },
+  {
     "port": "443",
     "network": "udp",
     "outboundTag": "block",
