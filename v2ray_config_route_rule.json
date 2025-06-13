@@ -24,6 +24,7 @@
     "outboundTag": "proxy",
     "domain": [
       "domain:x.com",
+      "domain:youtube.com",
       "geosite:google",
       "geosite:telegram",
       "geosite:twitter",
