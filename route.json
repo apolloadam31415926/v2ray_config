@@ -11,6 +11,7 @@
     "network": "tcp",
     "outboundTag": "proxy",
     "domain": [
+      "domain:x.com",
       "geosite:google",
       "geosite:telegram",
       "geosite:twitter",
