@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // #region config
+    { "label": "[ftask 0] this is a test for folderspace task.",
+      "type": "shell", "command": "echo",
+      "args": [ "[Error][UnImplement] this is a test for folderspace task!!" ],
+      "windows": {
+        "type": "process", "command": "powershell",
+        "args": [ 
+          "-Command", 
+          "echo workspaceFolder=${workspaceFolder}", ";",
+          "echo ${fileWorkspaceFolder}",";",
+          "echo ${fileWorkspaceFolderBasename}",";",
+          "echo ${input:test}"
+        ],
+      },
+      "linux": { },
+      "osx": { },
+      "presentation": { "echo": false, "focus": true },
+      "problemMatcher": [ ],
+      "dependsOn": [ ],
+      "dependsOrder": "sequence",
+    },
+    // #endregion
+  ],
+  "inputs": [
+    { "id": "test",
+      "type": "promptString",
+      "description": "input args",
+      "default": ""
+    },
+  ],
+}
