@@ -45,7 +45,8 @@
     "network": "tcp",
     "outboundTag": "direct",
     "domain": [
-      "domain:qq.com"
+      "domain:qq.com",
+      "domain:baidu.com"
     ],
     "enabled": true,
     "remarks": "precise_direct_domain"
