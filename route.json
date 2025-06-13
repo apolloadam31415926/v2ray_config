@@ -8,6 +8,27 @@
   },
   {
     "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "direct",
+    "ip": [
+      "36.152.44.93"
+    ],
+    "enabled": true,
+    "remarks": "precise_direct_ip"
+  },
+  {
+    "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "direct",
+    "ip": [
+      "domain:qq.com"
+    ],
+    "enabled": true,
+    "remarks": "precise_direct_ip"
+  },
+  {
+    "port": "0-65535",
+    "network": "tcp",
     "outboundTag": "direct",
     "ip": [
       "geoip:private",
@@ -24,6 +45,29 @@
     ],
     "enabled": true,
     "remarks": "direct_domain"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "direct_domain"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:gfw",
+      "geosite:greatfire",
+      "geosite:google",
+      "geosite:github",
+      "geosite:fastly",
+      "geosite:google",
+      "geosite:netflix",
+      "geosite:telegram",
+      "geosite:twitter"
+    ]
   },
   {
     "port": "0-65535",
