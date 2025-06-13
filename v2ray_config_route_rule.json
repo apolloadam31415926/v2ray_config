@@ -1,5 +1,6 @@
 [
   {
+    "domainMatcher": "mph",
     "type": "filed",
     "port": "0-65535",
     "network": "tcp",
