@@ -24,7 +24,7 @@
       "domain:qq.com"
     ],
     "enabled": true,
-    "remarks": "precise_direct_ip"
+    "remarks": "precise_direct_domain"
   },
   {
     "port": "0-65535",
