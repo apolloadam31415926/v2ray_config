@@ -23,7 +23,8 @@
       "geosite:google",
       "geosite:telegram",
       "geosite:twitter",
-      "geosite:tor"
+      "geosite:tor",
+      "geosite:not_exsit_test"
     ],
     "enabled": true,
     "remarks": "precise_proxy_domain"
