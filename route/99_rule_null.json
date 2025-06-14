@@ -4,7 +4,8 @@
     "network": "tcp",
     "outboundTag": "proxy",
     "domain": [
-      "domain:copilot.microsoft.com"
+      "domain:copilot.microsoft.com",
+      "domain:gemini.google.com"
     ],
     "enabled": true,
     "remarks": "precise_proxy_domain"
