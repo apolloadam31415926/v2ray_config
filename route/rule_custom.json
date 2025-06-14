@@ -1,0 +1,86 @@
+[
+  {
+    "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "block ads"
+  },
+  {
+    "port": "443",
+    "network": "udp",
+    "outboundTag": "block",
+    "enabled": true,
+    "remarks": "block udp 443"
+  },
+  {
+    "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:x.com",
+      "domain:youtube.com",
+      "domain:lolesports.com",
+      "domain:githubusercontent.com",
+      "domain:binance.com",
+      "domain:copilot.microsoft.com",
+      "geosite:google",
+      "geosite:telegram",
+      "geosite:twitter",
+      "geosite:tor"
+    ],
+    "enabled": true,
+    "remarks": "precise_proxy_domain"
+  },
+  {
+    "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "direct",
+    "ip": [
+      "36.152.44.93"
+    ],
+    "enabled": true,
+    "remarks": "precise_direct_ip"
+  },
+  {
+    "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:qq.com",
+      "domain:baidu.com"
+    ],
+    "enabled": true,
+    "remarks": "precise_direct_domain"
+  },
+  {
+    "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
+    "enabled": true,
+    "remarks": "direct_ip"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private",
+      "geosite:cn"
+    ],
+    "enabled": true,
+    "remarks": "direct_domain"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "proxy_others"
+  }
+]
