@@ -1,0 +1,501 @@
+2025/06/14 20:25:05 [Info] [1352121967] app/dispatcher: default route for tcp:nav-edge.smartscreen.microsoft.com:443
+2025/06/14 20:25:05 [Info] [1352121967] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:05 [Debug] [1352121967] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:05 [Info] [2681805317] app/dispatcher: sniffed domain: td.doubleclick.net
+2025/06/14 20:25:05 [Info] [2681805317] app/dispatcher: default route for tcp:td.doubleclick.net:443
+2025/06/14 20:25:05 [Info] [2681805317] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:05 [Debug] [2681805317] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:05 from 127.0.0.1:64071 accepted //nav-edge.smartscreen.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:25:05 from 127.0.0.1:64072 accepted //td.doubleclick.net:443 [socks >> proxy]
+2025/06/14 20:25:05 [Debug] [1933411225] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:05 [Info] [1933411225] proxy/http: request to Method [CONNECT] Host [gemini.google.com:443] with URL [//gemini.google.com:443]
+2025/06/14 20:25:05 [Info] [1933411225] app/dispatcher: sniffed domain: gemini.google.com
+2025/06/14 20:25:05 [Info] [1933411225] app/dispatcher: taking detour [proxy] for [tcp:gemini.google.com:443]
+2025/06/14 20:25:05 [Info] [1933411225] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:05 from 127.0.0.1:64075 accepted //gemini.google.com:443 [socks -> proxy]
+2025/06/14 20:25:05 [Debug] [1933411225] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:05 [Info] [3057847982] proxy/vless/outbound: tunneling request to tcp:gemini.google.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:05 [Info] [263407497] proxy/vless/outbound: tunneling request to tcp:play.google.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:05 [Info] [3568242353] proxy/vless/outbound: tunneling request to tcp:www.google-analytics.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:05 [Info] [4145997179] proxy/vless/outbound: tunneling request to tcp:www.googleadservices.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:06 [Info] [2681805317] proxy/vless/outbound: tunneling request to tcp:td.doubleclick.net:443 via 104.129.164.39:8880
+2025/06/14 20:25:06 [Info] [1352121967] proxy/vless/outbound: tunneling request to tcp:nav-edge.smartscreen.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:06 [Info] [1933411225] proxy/vless/outbound: tunneling request to tcp:gemini.google.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:06 [Info] [1933411225] app/proxyman/inbound: connection ends > proxy/http: connection ends > write tcp 127.0.0.1:10808->127.0.0.1:64075: wsasend: An established connection was aborted by the software in your host machine.
+2025/06/14 20:25:06 [Debug] [2189178288] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:06 [Info] [2189178288] proxy/http: request to Method [CONNECT] Host [googleads.g.doubleclick.net:443] with URL [//googleads.g.doubleclick.net:443]
+2025/06/14 20:25:06 from 127.0.0.1:64077 accepted //googleads.g.doubleclick.net:443 [socks >> proxy]
+2025/06/14 20:25:06 [Info] [2189178288] app/dispatcher: sniffed domain: googleads.g.doubleclick.net
+2025/06/14 20:25:06 [Info] [2189178288] app/dispatcher: default route for tcp:googleads.g.doubleclick.net:443
+2025/06/14 20:25:06 [Info] [2189178288] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:06 [Debug] [2189178288] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:06 [Info] [2189178288] proxy/vless/outbound: tunneling request to tcp:googleads.g.doubleclick.net:443 via 104.129.164.39:8880
+2025/06/14 20:25:07 [Debug] [3276644536] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:07 [Info] [3276644536] proxy/http: request to Method [CONNECT] Host [dict.eudic.net:443] with URL [//dict.eudic.net:443]
+2025/06/14 20:25:07 [Info] [3276644536] app/dispatcher: sniffed domain: dict.eudic.net
+2025/06/14 20:25:07 [Info] [3276644536] app/dispatcher: default route for tcp:dict.eudic.net:443
+2025/06/14 20:25:07 [Info] [3276644536] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:07 [Debug] [3276644536] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:07 from 127.0.0.1:64079 accepted //dict.eudic.net:443 [socks >> proxy]
+2025/06/14 20:25:07 [Debug] [2440176929] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:07 [Info] [2440176929] proxy/http: request to Method [CONNECT] Host [www.google.com:443] with URL [//www.google.com:443]
+2025/06/14 20:25:07 [Info] [2440176929] app/dispatcher: sniffed domain: www.google.com
+2025/06/14 20:25:07 [Info] [2440176929] app/dispatcher: default route for tcp:www.google.com:443
+2025/06/14 20:25:07 [Info] [2440176929] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:07 from 127.0.0.1:64081 accepted //www.google.com:443 [socks >> proxy]
+2025/06/14 20:25:07 [Debug] [2440176929] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:07 [Info] [3276644536] proxy/vless/outbound: tunneling request to tcp:dict.eudic.net:443 via 104.129.164.39:8880
+2025/06/14 20:25:07 [Debug] [1666528010] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:07 [Info] [1666528010] proxy/http: request to Method [CONNECT] Host [www.bing.com:443] with URL [//www.bing.com:443]
+2025/06/14 20:25:07 [Info] [1666528010] app/dispatcher: sniffed domain: www.bing.com
+2025/06/14 20:25:07 [Info] [1666528010] app/dispatcher: default route for tcp:www.bing.com:443
+2025/06/14 20:25:07 from 127.0.0.1:64083 accepted //www.bing.com:443 [socks >> proxy]
+2025/06/14 20:25:07 [Info] [1666528010] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:07 [Debug] [1666528010] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:07 [Info] [2440176929] proxy/vless/outbound: tunneling request to tcp:www.google.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:07 [Info] [1666528010] proxy/vless/outbound: tunneling request to tcp:www.bing.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:09 [Debug] [1198580566] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:09 [Info] [1198580566] proxy/http: request to Method [CONNECT] Host [default.exp-tas.com:443] with URL [//default.exp-tas.com:443]
+2025/06/14 20:25:09 from 127.0.0.1:64085 accepted //default.exp-tas.com:443 [socks >> proxy]
+2025/06/14 20:25:09 [Info] [1198580566] app/dispatcher: sniffed domain: default.exp-tas.com
+2025/06/14 20:25:09 [Info] [1198580566] app/dispatcher: default route for tcp:default.exp-tas.com:443
+2025/06/14 20:25:09 [Info] [1198580566] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:09 [Debug] [1198580566] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:10 [Info] [1198580566] proxy/vless/outbound: tunneling request to tcp:default.exp-tas.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:11 [Info] [1757377058] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:25:11 [Debug] [4009923115] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:11 [Info] [4009923115] proxy/http: request to Method [CONNECT] Host [browser.events.data.microsoft.com:443] with URL [//browser.events.data.microsoft.com:443]
+2025/06/14 20:25:11 [Info] [4009923115] app/dispatcher: sniffed domain: browser.events.data.microsoft.com
+2025/06/14 20:25:11 [Info] [4009923115] app/dispatcher: default route for tcp:browser.events.data.microsoft.com:443
+2025/06/14 20:25:11 [Info] [4009923115] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:11 [Debug] [4009923115] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:11 from 127.0.0.1:64087 accepted //browser.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:25:11 [Debug] [1495643652] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:11 [Info] [1495643652] proxy/http: request to Method [CONNECT] Host [eu-mobile.events.data.microsoft.com:443] with URL [//eu-mobile.events.data.microsoft.com:443]
+2025/06/14 20:25:11 [Info] [1495643652] app/dispatcher: sniffed domain: eu-mobile.events.data.microsoft.com
+2025/06/14 20:25:11 [Info] [1495643652] app/dispatcher: default route for tcp:eu-mobile.events.data.microsoft.com:443
+2025/06/14 20:25:11 [Info] [1495643652] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:11 from 127.0.0.1:64089 accepted //eu-mobile.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:25:11 [Debug] [1495643652] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:11 [Debug] [3839873737] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:11 [Info] [3839873737] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:25:11 [Info] [3839873737] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:25:11 [Info] [3839873737] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:25:11 [Info] [3839873737] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:11 [Debug] [3839873737] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:11 from 127.0.0.1:64091 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:25:12 [Info] [3839873737] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:12 [Info] [1495643652] proxy/vless/outbound: tunneling request to tcp:eu-mobile.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:12 [Info] [4009923115] proxy/vless/outbound: tunneling request to tcp:browser.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:25:15 [Info] [1198580566] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:25:43 [Info] [3839873737] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:25:44 [Debug] [3792470991] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:25:44 [Info] [3792470991] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:25:44 [Info] [3792470991] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:25:44 [Info] [3792470991] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:25:44 [Info] [3792470991] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:25:44 [Debug] [3792470991] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:25:44 from 127.0.0.1:64094 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:25:45 [Info] [3792470991] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:26:01 [Info] [3276644536] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [1666528010] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [692794029] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [4009923115] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [3057847982] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [263407497] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [3568242353] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [4145997179] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [2440176929] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [1352121967] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [1495643652] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [2189178288] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:01 [Info] [2681805317] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:07 [Debug] [2709718599] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:26:07 [Info] [2709718599] proxy/http: request to Method [CONNECT] Host [www.bing.com:443] with URL [//www.bing.com:443]
+2025/06/14 20:26:07 [Info] [2709718599] app/dispatcher: sniffed domain: www.bing.com
+2025/06/14 20:26:07 [Info] [2709718599] app/dispatcher: default route for tcp:www.bing.com:443
+2025/06/14 20:26:07 [Info] [2709718599] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:26:07 from 127.0.0.1:64096 accepted //www.bing.com:443 [socks >> proxy]
+2025/06/14 20:26:07 [Debug] [2709718599] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:26:08 [Info] [2709718599] proxy/vless/outbound: tunneling request to tcp:www.bing.com:443 via 104.129.164.39:8880
+2025/06/14 20:26:13 [Debug] [86425754] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:26:13 [Info] [86425754] proxy/http: request to Method [CONNECT] Host [main.vscode-cdn.net:443] with URL [//main.vscode-cdn.net:443]
+2025/06/14 20:26:13 [Info] [86425754] app/dispatcher: sniffed domain: main.vscode-cdn.net
+2025/06/14 20:26:13 [Info] [86425754] app/dispatcher: default route for tcp:main.vscode-cdn.net:443
+2025/06/14 20:26:13 [Info] [86425754] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:26:13 [Debug] [86425754] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:26:13 from 127.0.0.1:64098 accepted //main.vscode-cdn.net:443 [socks >> proxy]
+2025/06/14 20:26:13 [Info] [86425754] proxy/vless/outbound: tunneling request to tcp:main.vscode-cdn.net:443 via 104.129.164.39:8880
+2025/06/14 20:26:16 [Info] [3792470991] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:17 [Debug] [2223656101] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:26:17 [Info] [2223656101] proxy/http: request to Method [CONNECT] Host [browser.events.data.microsoft.com:443] with URL [//browser.events.data.microsoft.com:443]
+2025/06/14 20:26:17 [Info] [2223656101] app/dispatcher: sniffed domain: browser.events.data.microsoft.com
+2025/06/14 20:26:17 [Info] [2223656101] app/dispatcher: default route for tcp:browser.events.data.microsoft.com:443
+2025/06/14 20:26:17 [Info] [2223656101] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:26:17 [Debug] [2223656101] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:26:17 from 127.0.0.1:64100 accepted //browser.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:26:17 [Debug] [247313960] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:26:17 [Info] [247313960] proxy/http: request to Method [CONNECT] Host [eu-mobile.events.data.microsoft.com:443] with URL [//eu-mobile.events.data.microsoft.com:443]
+2025/06/14 20:26:17 [Info] [247313960] app/dispatcher: sniffed domain: eu-mobile.events.data.microsoft.com
+2025/06/14 20:26:17 [Info] [247313960] app/dispatcher: default route for tcp:eu-mobile.events.data.microsoft.com:443
+2025/06/14 20:26:17 from 127.0.0.1:64102 accepted //eu-mobile.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:26:17 [Info] [247313960] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:26:17 [Debug] [247313960] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:26:17 [Debug] [558835548] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:26:17 [Info] [558835548] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:26:17 [Info] [558835548] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:26:17 [Info] [558835548] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:26:17 [Info] [558835548] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:26:17 from 127.0.0.1:64104 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:26:17 [Debug] [558835548] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:26:18 [Info] [2223656101] proxy/vless/outbound: tunneling request to tcp:browser.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:26:18 [Info] [247313960] proxy/vless/outbound: tunneling request to tcp:eu-mobile.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:26:18 [Info] [558835548] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:26:40 [Debug] [3344948258] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:26:40 [Info] [3344948258] proxy/http: request to Method [CONNECT] Host [play.google.com:443] with URL [//play.google.com:443]
+2025/06/14 20:26:40 [Info] [3344948258] app/dispatcher: sniffed domain: play.google.com
+2025/06/14 20:26:40 [Info] [3344948258] app/dispatcher: default route for tcp:play.google.com:443
+2025/06/14 20:26:40 [Info] [3344948258] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:26:40 from 127.0.0.1:64106 accepted //play.google.com:443 [socks >> proxy]
+2025/06/14 20:26:40 [Debug] [3344948258] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:26:40 [Info] [3344948258] proxy/vless/outbound: tunneling request to tcp:play.google.com:443 via 104.129.164.39:8880
+2025/06/14 20:26:46 [Info] [3659470173] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to transfer response payload > websocket: close 1005 (no status)
+2025/06/14 20:26:46 [Info] [3659470173] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/14 20:26:46 [Debug] [2106802319] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:26:46 [Info] [2106802319] proxy/http: request to Method [CONNECT] Host [mobile.events.data.microsoft.com:443] with URL [//mobile.events.data.microsoft.com:443]
+2025/06/14 20:26:46 [Info] [2106802319] app/dispatcher: sniffed domain: mobile.events.data.microsoft.com
+2025/06/14 20:26:46 [Info] [2106802319] app/dispatcher: default route for tcp:mobile.events.data.microsoft.com:443
+2025/06/14 20:26:46 [Info] [2106802319] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:26:46 from 127.0.0.1:64108 accepted //mobile.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:26:46 [Debug] [2106802319] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:26:47 [Info] [2106802319] proxy/vless/outbound: tunneling request to tcp:mobile.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:26:50 [Info] [558835548] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:26:50 [Debug] [3808721962] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:26:50 [Info] [3808721962] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:26:50 [Info] [3808721962] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:26:50 [Info] [3808721962] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:26:50 [Info] [3808721962] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:26:50 from 127.0.0.1:64110 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:26:50 [Debug] [3808721962] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:26:51 [Info] [3808721962] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:27:01 [Info] [2709718599] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:27:01 [Info] [3344948258] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:27:01 [Info] [2223656101] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:27:01 [Info] [247313960] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:27:22 [Info] [3808721962] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:27:23 [Debug] [4053844709] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:27:23 [Info] [4053844709] proxy/http: request to Method [CONNECT] Host [browser.events.data.microsoft.com:443] with URL [//browser.events.data.microsoft.com:443]
+2025/06/14 20:27:23 [Info] [4053844709] app/dispatcher: sniffed domain: browser.events.data.microsoft.com
+2025/06/14 20:27:23 [Info] [4053844709] app/dispatcher: default route for tcp:browser.events.data.microsoft.com:443
+2025/06/14 20:27:23 from 127.0.0.1:64113 accepted //browser.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:27:23 [Info] [4053844709] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:27:23 [Debug] [4053844709] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:27:23 [Debug] [2015801025] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:27:23 [Info] [2015801025] proxy/http: request to Method [CONNECT] Host [eu-mobile.events.data.microsoft.com:443] with URL [//eu-mobile.events.data.microsoft.com:443]
+2025/06/14 20:27:23 [Info] [2015801025] app/dispatcher: sniffed domain: eu-mobile.events.data.microsoft.com
+2025/06/14 20:27:23 [Info] [2015801025] app/dispatcher: default route for tcp:eu-mobile.events.data.microsoft.com:443
+2025/06/14 20:27:23 from 127.0.0.1:64114 accepted //eu-mobile.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:27:23 [Info] [2015801025] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:27:23 [Debug] [2015801025] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:27:23 [Debug] [1138409068] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:27:23 [Info] [1138409068] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:27:23 [Info] [1138409068] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:27:23 [Info] [1138409068] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:27:23 [Info] [1138409068] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:27:23 from 127.0.0.1:64117 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:27:23 [Debug] [1138409068] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:27:24 [Info] [4053844709] proxy/vless/outbound: tunneling request to tcp:browser.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:27:24 [Info] [2015801025] proxy/vless/outbound: tunneling request to tcp:eu-mobile.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:27:24 [Info] [1138409068] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:27:45 [Info] [86425754] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:27:56 [Info] [1138409068] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:27:56 [Debug] [931972303] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:27:56 [Info] [931972303] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:27:56 from 127.0.0.1:64121 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:27:56 [Info] [931972303] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:27:56 [Info] [931972303] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:27:56 [Info] [931972303] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:27:56 [Debug] [931972303] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:27:57 [Info] [931972303] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:28:01 [Info] [2015801025] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:28:01 [Info] [4053844709] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:28:11 [Debug] [2086333731] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:28:11 [Info] [2086333731] proxy/http: request to Method [CONNECT] Host [signaler-pa.clients6.google.com:443] with URL [//signaler-pa.clients6.google.com:443]
+2025/06/14 20:28:11 [Info] [2086333731] app/dispatcher: sniffed domain: signaler-pa.clients6.google.com
+2025/06/14 20:28:11 from 127.0.0.1:64123 accepted //signaler-pa.clients6.google.com:443 [socks >> proxy]
+2025/06/14 20:28:11 [Info] [2086333731] app/dispatcher: default route for tcp:signaler-pa.clients6.google.com:443
+2025/06/14 20:28:11 [Info] [2086333731] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:28:11 [Debug] [2086333731] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:28:12 [Info] [2086333731] proxy/vless/outbound: tunneling request to tcp:signaler-pa.clients6.google.com:443 via 104.129.164.39:8880
+2025/06/14 20:28:28 [Info] [931972303] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:28:29 [Debug] [1592138267] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:28:29 [Info] [1592138267] proxy/http: request to Method [CONNECT] Host [browser.events.data.microsoft.com:443] with URL [//browser.events.data.microsoft.com:443]
+2025/06/14 20:28:29 [Info] [1592138267] app/dispatcher: sniffed domain: browser.events.data.microsoft.com
+2025/06/14 20:28:29 [Info] [1592138267] app/dispatcher: default route for tcp:browser.events.data.microsoft.com:443
+2025/06/14 20:28:29 from 127.0.0.1:64126 accepted //browser.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:28:29 [Info] [1592138267] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:28:29 [Debug] [1592138267] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:28:29 [Debug] [263061556] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:28:29 [Info] [263061556] proxy/http: request to Method [CONNECT] Host [eu-mobile.events.data.microsoft.com:443] with URL [//eu-mobile.events.data.microsoft.com:443]
+2025/06/14 20:28:29 [Info] [263061556] app/dispatcher: sniffed domain: eu-mobile.events.data.microsoft.com
+2025/06/14 20:28:29 [Info] [263061556] app/dispatcher: default route for tcp:eu-mobile.events.data.microsoft.com:443
+2025/06/14 20:28:29 [Info] [263061556] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:28:29 from 127.0.0.1:64127 accepted //eu-mobile.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:28:29 [Debug] [263061556] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:28:29 [Debug] [3993353763] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:28:29 [Info] [3993353763] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:28:29 [Info] [3993353763] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:28:29 from 127.0.0.1:64130 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:28:29 [Info] [3993353763] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:28:29 [Info] [3993353763] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:28:29 [Debug] [3993353763] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:28:30 [Info] [263061556] proxy/vless/outbound: tunneling request to tcp:eu-mobile.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:28:30 [Info] [1592138267] proxy/vless/outbound: tunneling request to tcp:browser.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:28:30 [Info] [3993353763] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:28:38 [Debug] [2028103270] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:28:38 [Info] [2028103270] proxy/http: request to Method [CONNECT] Host [mobile.events.data.microsoft.com:443] with URL [//mobile.events.data.microsoft.com:443]
+2025/06/14 20:28:38 [Info] [2028103270] app/dispatcher: sniffed domain: mobile.events.data.microsoft.com
+2025/06/14 20:28:38 [Info] [2028103270] app/dispatcher: default route for tcp:mobile.events.data.microsoft.com:443
+2025/06/14 20:28:38 [Info] [2028103270] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:28:38 [Debug] [2028103270] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:28:38 from 127.0.0.1:64132 accepted //mobile.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:28:38 [Info] [2028103270] proxy/vless/outbound: tunneling request to tcp:mobile.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:28:40 [Info] [2028103270] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to transfer response payload > websocket: close 1005 (no status)
+2025/06/14 20:28:40 [Info] [2028103270] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/14 20:29:01 [Info] [263061556] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:29:01 [Info] [1592138267] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:29:01 [Info] [2086333731] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:29:01 [Info] [3993353763] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:29:02 [Debug] [1349480669] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:02 [Info] [1349480669] proxy/http: request to Method [CONNECT] Host [browser.events.data.microsoft.com:443] with URL [//browser.events.data.microsoft.com:443]
+2025/06/14 20:29:02 [Info] [1349480669] app/dispatcher: sniffed domain: browser.events.data.microsoft.com
+2025/06/14 20:29:02 [Info] [1349480669] app/dispatcher: default route for tcp:browser.events.data.microsoft.com:443
+2025/06/14 20:29:02 [Info] [1349480669] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:02 from 127.0.0.1:64134 accepted //browser.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:29:02 [Debug] [1349480669] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:02 [Debug] [4204591003] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:02 [Info] [4204591003] proxy/http: request to Method [CONNECT] Host [eu-mobile.events.data.microsoft.com:443] with URL [//eu-mobile.events.data.microsoft.com:443]
+2025/06/14 20:29:02 [Info] [4204591003] app/dispatcher: sniffed domain: eu-mobile.events.data.microsoft.com
+2025/06/14 20:29:02 from 127.0.0.1:64136 accepted //eu-mobile.events.data.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:29:02 [Info] [4204591003] app/dispatcher: default route for tcp:eu-mobile.events.data.microsoft.com:443
+2025/06/14 20:29:02 [Info] [4204591003] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:02 [Debug] [4204591003] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:02 [Debug] [4060015132] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:02 [Info] [4060015132] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:29:02 [Info] [4060015132] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:29:02 [Info] [4060015132] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:29:02 [Info] [4060015132] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:02 from 127.0.0.1:64138 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:29:02 [Debug] [4060015132] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:03 [Info] [1349480669] proxy/vless/outbound: tunneling request to tcp:browser.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:03 [Info] [4204591003] proxy/vless/outbound: tunneling request to tcp:eu-mobile.events.data.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:03 [Info] [4060015132] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:29 [Info] [53333766] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to transfer response payload > websocket: close 1005 (no status)
+2025/06/14 20:29:29 [Info] [53333766] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/14 20:29:29 [Debug] [3497930878] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:29 [Info] [3497930878] proxy/http: request to Method [CONNECT] Host [vscode-sync.trafficmanager.net:443] with URL [//vscode-sync.trafficmanager.net:443]
+2025/06/14 20:29:29 [Info] [3497930878] app/dispatcher: sniffed domain: vscode-sync.trafficmanager.net
+2025/06/14 20:29:29 [Info] [3497930878] app/dispatcher: default route for tcp:vscode-sync.trafficmanager.net:443
+2025/06/14 20:29:29 [Info] [3497930878] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:29 [Debug] [3497930878] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:29 from 127.0.0.1:64140 accepted //vscode-sync.trafficmanager.net:443 [socks >> proxy]
+2025/06/14 20:29:29 [Info] [3497930878] proxy/vless/outbound: tunneling request to tcp:vscode-sync.trafficmanager.net:443 via 104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [1035123169] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:32 [Info] [1035123169] proxy/http: request to Method [CONNECT] Host [ntp.msn.com:443] with URL [//ntp.msn.com:443]
+2025/06/14 20:29:32 from 127.0.0.1:64142 accepted //ntp.msn.com:443 [socks >> proxy]
+2025/06/14 20:29:32 [Info] [1035123169] app/dispatcher: sniffed domain: ntp.msn.com
+2025/06/14 20:29:32 [Info] [1035123169] app/dispatcher: default route for tcp:ntp.msn.com:443
+2025/06/14 20:29:32 [Info] [1035123169] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [1035123169] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [880371464] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:32 [Info] [880371464] proxy/http: request to Method [CONNECT] Host [www.bing.com:443] with URL [//www.bing.com:443]
+2025/06/14 20:29:32 [Debug] [2972218467] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:32 [Info] [2972218467] proxy/http: request to Method [CONNECT] Host [c.msn.com:443] with URL [//c.msn.com:443]
+2025/06/14 20:29:32 from 127.0.0.1:64145 accepted //c.msn.com:443 [socks >> proxy]
+2025/06/14 20:29:32 [Info] [2972218467] app/dispatcher: sniffed domain: c.msn.com
+2025/06/14 20:29:32 [Info] [2972218467] app/dispatcher: default route for tcp:c.msn.com:443
+2025/06/14 20:29:32 [Info] [2972218467] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [2972218467] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 from 127.0.0.1:64144 accepted //www.bing.com:443 [socks >> proxy]
+2025/06/14 20:29:32 from 127.0.0.1:64146 accepted //c.bing.com:443 [socks >> proxy]
+2025/06/14 20:29:32 from 127.0.0.1:64147 accepted //assets.msn.com:443 [socks >> proxy]
+2025/06/14 20:29:32 [Info] [880371464] app/dispatcher: sniffed domain: www.bing.com
+2025/06/14 20:29:32 [Info] [880371464] app/dispatcher: default route for tcp:www.bing.com:443
+2025/06/14 20:29:32 [Info] [880371464] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [880371464] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [3784206109] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:32 [Info] [3784206109] proxy/http: request to Method [CONNECT] Host [c.bing.com:443] with URL [//c.bing.com:443]
+2025/06/14 20:29:32 [Debug] [2365999870] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:32 [Info] [2365999870] proxy/http: request to Method [CONNECT] Host [assets.msn.com:443] with URL [//assets.msn.com:443]
+2025/06/14 20:29:32 [Info] [3784206109] app/dispatcher: sniffed domain: c.bing.com
+2025/06/14 20:29:32 [Info] [3784206109] app/dispatcher: default route for tcp:c.bing.com:443
+2025/06/14 20:29:32 [Info] [3784206109] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [3784206109] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [1767092724] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:32 [Info] [1767092724] proxy/http: request to Method [CONNECT] Host [assets.msn.com:443] with URL [//assets.msn.com:443]
+2025/06/14 20:29:32 [Debug] [1312937223] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:32 [Info] [1312937223] proxy/http: request to Method [CONNECT] Host [api.msn.com:443] with URL [//api.msn.com:443]
+2025/06/14 20:29:32 [Info] [2365999870] app/dispatcher: sniffed domain: assets.msn.com
+2025/06/14 20:29:32 [Info] [1767092724] app/dispatcher: sniffed domain: assets.msn.com
+2025/06/14 20:29:32 [Info] [1767092724] app/dispatcher: default route for tcp:assets.msn.com:443
+2025/06/14 20:29:32 [Info] [1767092724] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Info] [852533624] app/dispatcher: sniffed domain: img-s-msn-com.akamaized.net
+2025/06/14 20:29:32 [Info] [852533624] app/dispatcher: default route for tcp:img-s-msn-com.akamaized.net:443
+2025/06/14 20:29:32 [Info] [852533624] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [852533624] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 from 127.0.0.1:64148 accepted //assets.msn.com:443 [socks >> proxy]
+2025/06/14 20:29:32 from 127.0.0.1:64149 accepted //api.msn.com:443 [socks >> proxy]
+2025/06/14 20:29:32 from 127.0.0.1:64152 accepted //img-s-msn-com.akamaized.net:443 [socks >> proxy]
+2025/06/14 20:29:32 from 127.0.0.1:64151 accepted //sb.scorecardresearch.com:443 [socks >> proxy]
+2025/06/14 20:29:32 from 127.0.0.1:64150 accepted //th.bing.com:443 [socks >> proxy]
+2025/06/14 20:29:32 [Info] [1867064051] app/dispatcher: sniffed domain: sb.scorecardresearch.com
+2025/06/14 20:29:32 [Info] [927803393] app/dispatcher: sniffed domain: th.bing.com
+2025/06/14 20:29:32 [Info] [1867064051] app/dispatcher: default route for tcp:sb.scorecardresearch.com:443
+2025/06/14 20:29:32 [Info] [927803393] app/dispatcher: default route for tcp:th.bing.com:443
+2025/06/14 20:29:32 [Info] [1867064051] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Info] [927803393] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [1867064051] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [927803393] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 from 127.0.0.1:64153 accepted //browser.events.data.msn.com:443 [socks >> proxy]
+2025/06/14 20:29:32 [Info] [3621560171] app/dispatcher: sniffed domain: browser.events.data.msn.com
+2025/06/14 20:29:32 [Info] [3621560171] app/dispatcher: default route for tcp:browser.events.data.msn.com:443
+2025/06/14 20:29:32 [Info] [3621560171] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [3621560171] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [200424794] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:32 [Info] [200424794] proxy/http: request to Method [CONNECT] Host [edge.microsoft.com:443] with URL [//edge.microsoft.com:443]
+2025/06/14 20:29:32 from 127.0.0.1:64164 accepted //edge.microsoft.com:443 [socks >> proxy]
+2025/06/14 20:29:32 [Info] [200424794] app/dispatcher: sniffed domain: edge.microsoft.com
+2025/06/14 20:29:32 [Info] [200424794] app/dispatcher: default route for tcp:edge.microsoft.com:443
+2025/06/14 20:29:32 [Info] [200424794] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Debug] [200424794] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:32 [Info] [1035123169] proxy/vless/outbound: tunneling request to tcp:ntp.msn.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [1312937223] proxy/vless/outbound: tunneling request to tcp:api.msn.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [2972218467] proxy/vless/outbound: tunneling request to tcp:c.msn.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [880371464] proxy/vless/outbound: tunneling request to tcp:www.bing.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [3621560171] proxy/vless/outbound: tunneling request to tcp:browser.events.data.msn.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [1767092724] proxy/vless/outbound: tunneling request to tcp:assets.msn.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [927803393] proxy/vless/outbound: tunneling request to tcp:th.bing.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [1867064051] proxy/vless/outbound: tunneling request to tcp:sb.scorecardresearch.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [3784206109] proxy/vless/outbound: tunneling request to tcp:c.bing.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [852533624] proxy/vless/outbound: tunneling request to tcp:img-s-msn-com.akamaized.net:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [2365999870] proxy/vless/outbound: tunneling request to tcp:assets.msn.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [200424794] proxy/vless/outbound: tunneling request to tcp:edge.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:33 [Debug] [157635807] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:33 [Info] [157635807] proxy/http: request to Method [CONNECT] Host [r.bing.com:443] with URL [//r.bing.com:443]
+2025/06/14 20:29:33 [Debug] [2921757265] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:33 [Info] [2921757265] proxy/http: request to Method [CONNECT] Host [r.bing.com:443] with URL [//r.bing.com:443]
+2025/06/14 20:29:33 from 127.0.0.1:64166 accepted //r.bing.com:443 [socks >> proxy]
+2025/06/14 20:29:33 [Info] [157635807] app/dispatcher: sniffed domain: r.bing.com
+2025/06/14 20:29:33 [Info] [157635807] app/dispatcher: default route for tcp:r.bing.com:443
+2025/06/14 20:29:33 [Info] [157635807] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 [Debug] [157635807] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [2921757265] app/dispatcher: sniffed domain: r.bing.com
+2025/06/14 20:29:33 [Info] [2921757265] app/dispatcher: default route for tcp:r.bing.com:443
+2025/06/14 20:29:33 [Info] [2921757265] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 [Debug] [2921757265] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 from 127.0.0.1:64167 accepted //r.bing.com:443 [socks >> proxy]
+2025/06/14 20:29:33 [Debug] [4040862430] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:33 [Info] [4040862430] proxy/http: request to Method [CONNECT] Host [r.msftstatic.com:443] with URL [//r.msftstatic.com:443]
+2025/06/14 20:29:33 from 127.0.0.1:64168 accepted //r.msftstatic.com:443 [socks >> proxy]
+2025/06/14 20:29:33 [Info] [4040862430] app/dispatcher: sniffed domain: r.msftstatic.com
+2025/06/14 20:29:33 [Info] [4040862430] app/dispatcher: default route for tcp:r.msftstatic.com:443
+2025/06/14 20:29:33 [Info] [4040862430] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 [Debug] [4040862430] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 [Debug] [3645337648] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:33 [Info] [3645337648] proxy/http: request to Method [CONNECT] Host [r.msftstatic.com:443] with URL [//r.msftstatic.com:443]
+2025/06/14 20:29:33 [Info] [3645337648] app/dispatcher: sniffed domain: r.msftstatic.com
+2025/06/14 20:29:33 [Info] [3645337648] app/dispatcher: default route for tcp:r.msftstatic.com:443
+2025/06/14 20:29:33 [Info] [3645337648] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 [Debug] [3645337648] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 from 127.0.0.1:64169 accepted //r.msftstatic.com:443 [socks >> proxy]
+2025/06/14 20:29:33 [Debug] [1412573108] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:33 [Info] [1412573108] proxy/http: request to Method [CONNECT] Host [browser.events.data.msn.com:443] with URL [//browser.events.data.msn.com:443]
+2025/06/14 20:29:33 [Info] [1412573108] app/dispatcher: sniffed domain: browser.events.data.msn.com
+2025/06/14 20:29:33 [Info] [1412573108] app/dispatcher: default route for tcp:browser.events.data.msn.com:443
+2025/06/14 20:29:33 [Info] [1412573108] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 [Debug] [1412573108] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 from 127.0.0.1:64174 accepted //browser.events.data.msn.com:443 [socks >> proxy]
+2025/06/14 20:29:33 [Debug] [4104439256] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:33 [Info] [4104439256] proxy/http: request to Method [CONNECT] Host [browser.events.data.msn.com:443] with URL [//browser.events.data.msn.com:443]
+2025/06/14 20:29:33 [Info] [4104439256] app/dispatcher: sniffed domain: browser.events.data.msn.com
+2025/06/14 20:29:33 [Info] [4104439256] app/dispatcher: default route for tcp:browser.events.data.msn.com:443
+2025/06/14 20:29:33 [Info] [4104439256] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 from 127.0.0.1:64176 accepted //browser.events.data.msn.com:443 [socks >> proxy]
+2025/06/14 20:29:33 [Debug] [4104439256] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:33 [Info] [157635807] proxy/vless/outbound: tunneling request to tcp:r.bing.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:34 [Info] [2921757265] proxy/vless/outbound: tunneling request to tcp:r.bing.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:34 [Info] [3645337648] proxy/vless/outbound: tunneling request to tcp:r.msftstatic.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:34 [Info] [4040862430] proxy/vless/outbound: tunneling request to tcp:r.msftstatic.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:34 [Debug] [1037963940] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:34 [Info] [1037963940] proxy/http: request to Method [CONNECT] Host [www.v2fly.org:443] with URL [//www.v2fly.org:443]
+2025/06/14 20:29:34 [Info] [1037963940] app/dispatcher: sniffed domain: www.v2fly.org
+2025/06/14 20:29:34 [Info] [1037963940] app/dispatcher: default route for tcp:www.v2fly.org:443
+2025/06/14 20:29:34 [Info] [1037963940] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:34 [Debug] [1037963940] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:34 from 127.0.0.1:64178 accepted //www.v2fly.org:443 [socks >> proxy]
+2025/06/14 20:29:34 [Info] [4104439256] proxy/vless/outbound: tunneling request to tcp:browser.events.data.msn.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:34 [Info] [1412573108] proxy/vless/outbound: tunneling request to tcp:browser.events.data.msn.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:34 [Info] [1037963940] proxy/vless/outbound: tunneling request to tcp:www.v2fly.org:443 via 104.129.164.39:8880
+2025/06/14 20:29:35 [Info] [4060015132] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:29:35 [Info] [1037963940] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/14 20:29:35 [Info] [1037963940] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/14 20:29:35 [Debug] [2670885960] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:35 [Info] [2670885960] proxy/http: request to Method [CONNECT] Host [www.v2fly.org:443] with URL [//www.v2fly.org:443]
+2025/06/14 20:29:35 [Info] [2670885960] app/dispatcher: sniffed domain: www.v2fly.org
+2025/06/14 20:29:35 [Info] [2670885960] app/dispatcher: default route for tcp:www.v2fly.org:443
+2025/06/14 20:29:35 [Info] [2670885960] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:35 from 127.0.0.1:64180 accepted //www.v2fly.org:443 [socks >> proxy]
+2025/06/14 20:29:35 [Debug] [2670885960] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:35 [Info] [2670885960] proxy/vless/outbound: tunneling request to tcp:www.v2fly.org:443 via 104.129.164.39:8880
+2025/06/14 20:29:35 [Debug] [3961672973] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:35 [Info] [3961672973] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 20:29:35 [Info] [3961672973] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 20:29:35 [Info] [3961672973] app/dispatcher: taking detour [proxy] for [tcp:copilot.microsoft.com:443]
+2025/06/14 20:29:35 from 127.0.0.1:64182 accepted //copilot.microsoft.com:443 [socks -> proxy]
+2025/06/14 20:29:35 [Info] [3961672973] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:35 [Debug] [3961672973] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:35 [Info] [4104439256] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:29:35 [Info] [1412573108] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 20:29:35 [Info] [2670885960] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/14 20:29:35 [Info] [2670885960] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/14 20:29:36 [Info] [3961672973] proxy/vless/outbound: tunneling request to tcp:copilot.microsoft.com:443 via 104.129.164.39:8880
+2025/06/14 20:29:37 [Debug] [3934402565] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:37 [Info] [3934402565] proxy/http: request to Method [CONNECT] Host [www.v2fly.org:443] with URL [//www.v2fly.org:443]
+2025/06/14 20:29:37 from 127.0.0.1:64184 accepted //www.v2fly.org:443 [socks >> proxy]
+2025/06/14 20:29:37 [Info] [3934402565] app/dispatcher: sniffed domain: www.v2fly.org
+2025/06/14 20:29:37 [Info] [3934402565] app/dispatcher: default route for tcp:www.v2fly.org:443
+2025/06/14 20:29:37 [Info] [3934402565] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:37 [Debug] [3934402565] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:37 [Debug] [2352271164] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:37 [Info] [2352271164] proxy/http: request to Method [CONNECT] Host [www.v2fly.org:443] with URL [//www.v2fly.org:443]
+2025/06/14 20:29:37 [Info] [2352271164] app/dispatcher: sniffed domain: www.v2fly.org
+2025/06/14 20:29:37 [Info] [2352271164] app/dispatcher: default route for tcp:www.v2fly.org:443
+2025/06/14 20:29:37 from 127.0.0.1:64186 accepted //www.v2fly.org:443 [socks >> proxy]
+2025/06/14 20:29:37 [Info] [2352271164] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:37 [Debug] [2352271164] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:37 [Info] [3934402565] proxy/vless/outbound: tunneling request to tcp:www.v2fly.org:443 via 104.129.164.39:8880
+2025/06/14 20:29:37 [Info] [2352271164] proxy/vless/outbound: tunneling request to tcp:www.v2fly.org:443 via 104.129.164.39:8880
+2025/06/14 20:29:37 [Info] [3934402565] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/14 20:29:37 [Info] [3934402565] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/14 20:29:37 [Debug] [1495832614] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:37 [Info] [1495832614] proxy/http: request to Method [CONNECT] Host [www.v2fly.org:443] with URL [//www.v2fly.org:443]
+2025/06/14 20:29:37 [Info] [1495832614] app/dispatcher: sniffed domain: www.v2fly.org
+2025/06/14 20:29:37 [Info] [1495832614] app/dispatcher: default route for tcp:www.v2fly.org:443
+2025/06/14 20:29:37 from 127.0.0.1:64188 accepted //www.v2fly.org:443 [socks >> proxy]
+2025/06/14 20:29:37 [Info] [1495832614] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:37 [Debug] [1495832614] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:37 [Info] [2352271164] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/14 20:29:37 [Info] [2352271164] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/14 20:29:37 [Debug] [1433866082] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 20:29:37 [Info] [1433866082] proxy/http: request to Method [CONNECT] Host [www.v2fly.org:443] with URL [//www.v2fly.org:443]
+2025/06/14 20:29:37 [Info] [1433866082] app/dispatcher: sniffed domain: www.v2fly.org
+2025/06/14 20:29:37 [Info] [1433866082] app/dispatcher: default route for tcp:www.v2fly.org:443
+2025/06/14 20:29:37 [Info] [1433866082] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/14 20:29:37 [Debug] [1433866082] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/14 20:29:37 from 127.0.0.1:64190 accepted //www.v2fly.org:443 [socks >> proxy]
+2025/06/14 20:29:38 [Info] [1495832614] proxy/vless/outbound: tunneling request to tcp:www.v2fly.org:443 via 104.129.164.39:8880
+2025/06/14 20:29:38 [Info] [1433866082] proxy/vless/outbound: tunneling request to tcp:www.v2fly.org:443 via 104.129.164.39:8880
+2025/06/14 20:29:38 [Info] [1433866082] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/14 20:29:38 [Info] [1433866082] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/14 20:29:38 [Info] [1495832614] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to transfer response payload > websocket: close 1005 (no status)
+2025/06/14 20:29:38 [Info] [1495832614] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
