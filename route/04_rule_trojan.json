@@ -19,12 +19,7 @@
       "domain:lolesports.com",
       "domain:githubusercontent.com",
       "domain:binance.com",
-      "domain:copilot.microsoft.com",
-      "geosite:google",
-      "geosite:telegram",
-      "geosite:twitter",
-      "geosite:tor",
-      "geosite:not_exsit_test"
+      "domain:copilot.microsoft.com"
     ],
     "enabled": true,
     "remarks": "precise_proxy_domain"
