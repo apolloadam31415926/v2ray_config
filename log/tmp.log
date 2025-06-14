@@ -1,0 +1,52 @@
+2025/06/14 18:12:04 [Info] [4024183283] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 18:12:05 [Debug] [379838874] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 18:12:05 [Info] [379838874] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 18:12:05 [Info] [379838874] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 18:12:05 [Info] [379838874] app/dispatcher: default route for tcp:copilot.microsoft.com:443
+2025/06/14 18:12:05 [Info] [379838874] transport/internet/tcp: dialing TCP to tcp:113.99.140.184:39001
+2025/06/14 18:12:05 [Debug] [379838874] transport/internet: dialing to tcp:113.99.140.184:39001
+2025/06/14 18:12:05 from 127.0.0.1:62915 accepted //copilot.microsoft.com:443 [socks >> proxy]
+2025/06/14 18:12:05 [Info] [379838874] proxy/trojan: tunneling request to tcp:copilot.microsoft.com:443 via 113.99.140.184:39001
+2025/06/14 18:12:43 [Info] [379838874] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 18:12:44 [Debug] [1598547322] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 18:12:44 [Info] [1598547322] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 18:12:44 [Info] [1598547322] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 18:12:44 [Info] [1598547322] app/dispatcher: default route for tcp:copilot.microsoft.com:443
+2025/06/14 18:12:44 from 127.0.0.1:62917 accepted //copilot.microsoft.com:443 [socks >> proxy]
+2025/06/14 18:12:44 [Info] [1598547322] transport/internet/tcp: dialing TCP to tcp:113.99.140.184:39001
+2025/06/14 18:12:44 [Debug] [1598547322] transport/internet: dialing to tcp:113.99.140.184:39001
+2025/06/14 18:12:44 [Info] [1598547322] proxy/trojan: tunneling request to tcp:copilot.microsoft.com:443 via 113.99.140.184:39001
+2025/06/14 18:12:59 [Debug] [2376634000] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 18:12:59 [Info] [2376634000] proxy/http: request to Method [CONNECT] Host [www.bing.com:443] with URL [//www.bing.com:443]
+2025/06/14 18:12:59 from 127.0.0.1:62919 accepted //www.bing.com:443 [socks >> proxy]
+2025/06/14 18:12:59 [Info] [2376634000] app/dispatcher: sniffed domain: www.bing.com
+2025/06/14 18:12:59 [Info] [2376634000] app/dispatcher: default route for tcp:www.bing.com:443
+2025/06/14 18:12:59 [Info] [2376634000] transport/internet/tcp: dialing TCP to tcp:113.99.140.184:39001
+2025/06/14 18:12:59 [Debug] [2376634000] transport/internet: dialing to tcp:113.99.140.184:39001
+2025/06/14 18:12:59 [Info] [2376634000] proxy/trojan: tunneling request to tcp:www.bing.com:443 via 113.99.140.184:39001
+2025/06/14 18:13:21 [Info] [1598547322] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 18:13:22 [Debug] [1040883369] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 18:13:22 [Info] [1040883369] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 18:13:22 [Info] [1040883369] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 18:13:22 [Info] [1040883369] app/dispatcher: default route for tcp:copilot.microsoft.com:443
+2025/06/14 18:13:22 [Info] [1040883369] transport/internet/tcp: dialing TCP to tcp:113.99.140.184:39001
+2025/06/14 18:13:22 [Debug] [1040883369] transport/internet: dialing to tcp:113.99.140.184:39001
+2025/06/14 18:13:22 from 127.0.0.1:62922 accepted //copilot.microsoft.com:443 [socks >> proxy]
+2025/06/14 18:13:22 [Info] [1040883369] proxy/trojan: tunneling request to tcp:copilot.microsoft.com:443 via 113.99.140.184:39001
+2025/06/14 18:14:09 [Info] [1040883369] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/14 18:14:10 [Debug] [4054227468] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 18:14:10 [Info] [4054227468] proxy/http: request to Method [CONNECT] Host [copilot.microsoft.com:443] with URL [//copilot.microsoft.com:443]
+2025/06/14 18:14:10 [Info] [4054227468] app/dispatcher: sniffed domain: copilot.microsoft.com
+2025/06/14 18:14:10 [Info] [4054227468] app/dispatcher: default route for tcp:copilot.microsoft.com:443
+2025/06/14 18:14:10 [Info] [4054227468] transport/internet/tcp: dialing TCP to tcp:113.99.140.184:39001
+2025/06/14 18:14:10 [Debug] [4054227468] transport/internet: dialing to tcp:113.99.140.184:39001
+2025/06/14 18:14:10 from 127.0.0.1:62925 accepted //copilot.microsoft.com:443 [socks >> proxy]
+2025/06/14 18:14:10 [Info] [4054227468] proxy/trojan: tunneling request to tcp:copilot.microsoft.com:443 via 113.99.140.184:39001
+2025/06/14 18:14:12 [Debug] [2694312710] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/14 18:14:12 [Info] [2694312710] proxy/http: request to Method [CONNECT] Host [login.live.com:443] with URL [//login.live.com:443]
+2025/06/14 18:14:12 [Info] [2694312710] app/dispatcher: sniffed domain: login.live.com
+2025/06/14 18:14:12 [Info] [2694312710] app/dispatcher: default route for tcp:login.live.com:443
+2025/06/14 18:14:12 [Info] [2694312710] transport/internet/tcp: dialing TCP to tcp:113.99.140.184:39001
+2025/06/14 18:14:12 [Debug] [2694312710] transport/internet: dialing to tcp:113.99.140.184:39001
+2025/06/14 18:14:12 from 127.0.0.1:62927 accepted //login.live.com:443 [socks >> proxy]
+2025/06/14 18:14:13 [Info] [2694312710] proxy/trojan: tunneling request to tcp:login.live.com:443 via 113.99.140.184:39001

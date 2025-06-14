@@ -1,0 +1,21 @@
+[
+  {
+    "port": "0-65535",
+    "network": "tcp",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:x.com",
+      "domain:youtube.com",
+      "domain:lolesports.com",
+      "domain:githubusercontent.com",
+      "domain:binance.com",
+      "domain:copilot.microsoft.com",
+      "geosite:google",
+      "geosite:telegram",
+      "geosite:twitter",
+      "geosite:tor"
+    ],
+    "enabled": true,
+    "remarks": "precise_proxy_domain"
+  }
+]
