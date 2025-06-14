@@ -6,7 +6,7 @@
     "domain": [
       "domain:copilot.microsoft.com",
       "domain:gemini.google.com",
-      "v2fly.org"
+      "domain:v2fly.org"
     ],
     "enabled": true,
     "remarks": "precise_proxy_domain"
