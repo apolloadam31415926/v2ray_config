@@ -4,16 +4,7 @@
     "network": "tcp",
     "outboundTag": "proxy",
     "domain": [
-      "domain:x.com",
-      "domain:youtube.com",
-      "domain:lolesports.com",
-      "domain:githubusercontent.com",
-      "domain:binance.com",
-      "domain:copilot.microsoft.com",
-      "geosite:google",
-      "geosite:telegram",
-      "geosite:twitter",
-      "geosite:tor"
+      "domain:copilot.microsoft.com"
     ],
     "enabled": true,
     "remarks": "precise_proxy_domain"
