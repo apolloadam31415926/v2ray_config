@@ -6,7 +6,8 @@
     "domain": [
       "domain:copilot.microsoft.com",
       "domain:gemini.google.com",
-      "domain:v2fly.org"
+      "domain:v2fly.org",
+      "domain:adobe.com"
     ],
     "enabled": true,
     "remarks": "precise_proxy_domain"
@@ -17,8 +18,7 @@
     "outboundTag": "direct",
     "domain": [
       "domain:taobao.com",
-      "domain:tmall.com",
-      "domain:adobe.com"
+      "domain:tmall.com"
     ],
     "enabled": true,
     "remarks": "precise_direct_domain"
