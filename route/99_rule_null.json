@@ -16,7 +16,8 @@
     "network": "tcp",
     "outboundTag": "direct",
     "domain": [
-      "domain:taobao.com"
+      "domain:taobao.com",
+      "domain:tmall.com"
     ],
     "enabled": true,
     "remarks": "precise_direct_domain"
