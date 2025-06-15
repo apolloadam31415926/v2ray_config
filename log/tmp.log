@@ -1,501 +1,501 @@
-2025/06/15 02:29:13 [Info] [2076364622] app/dispatcher: sniffed domain: www.tmall.com
-2025/06/15 02:29:13 [Info] [2076364622] app/dispatcher: default route for tcp:www.tmall.com:443
-2025/06/15 02:29:13 from 127.0.0.1:56325 accepted //www.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:13 [Info] [2076364622] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:13 [Debug] [2076364622] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:14 [Debug] [2271652756] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:14 [Info] [2271652756] proxy/http: request to Method [CONNECT] Host [www.fliggy.com:443] with URL [//www.fliggy.com:443]
-2025/06/15 02:29:14 [Info] [2271652756] app/dispatcher: sniffed domain: www.fliggy.com
-2025/06/15 02:29:14 [Info] [2271652756] app/dispatcher: default route for tcp:www.fliggy.com:443
-2025/06/15 02:29:14 from 127.0.0.1:56327 accepted //www.fliggy.com:443 [socks >> proxy]
-2025/06/15 02:29:14 [Info] [2271652756] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:14 [Debug] [2271652756] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:14 [Debug] [4199972156] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:14 [Info] [4199972156] proxy/http: request to Method [CONNECT] Host [list.tmall.hk:443] with URL [//list.tmall.hk:443]
-2025/06/15 02:29:14 [Info] [4199972156] app/dispatcher: sniffed domain: list.tmall.hk
-2025/06/15 02:29:14 [Info] [4199972156] app/dispatcher: default route for tcp:list.tmall.hk:443
-2025/06/15 02:29:14 [Info] [4199972156] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:14 from 127.0.0.1:56329 accepted //list.tmall.hk:443 [socks >> proxy]
-2025/06/15 02:29:14 [Debug] [4199972156] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:14 [Info] [2076364622] proxy/vless/outbound: tunneling request to tcp:www.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:14 [Info] [4199972156] proxy/vless/outbound: tunneling request to tcp:list.tmall.hk:443 via 104.129.164.39:8880
-2025/06/15 02:29:14 [Info] [2271652756] proxy/vless/outbound: tunneling request to tcp:www.fliggy.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:14 [Info] [957422865] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:14 [Debug] [3029016308] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:14 [Info] [3029016308] proxy/http: request to Method [CONNECT] Host [detail.tmall.com:443] with URL [//detail.tmall.com:443]
-2025/06/15 02:29:14 [Info] [3029016308] app/dispatcher: sniffed domain: detail.tmall.com
-2025/06/15 02:29:14 [Info] [3029016308] app/dispatcher: default route for tcp:detail.tmall.com:443
-2025/06/15 02:29:14 from 127.0.0.1:56331 accepted //detail.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:14 [Info] [3029016308] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:14 [Debug] [3029016308] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:15 [Info] [3029016308] proxy/vless/outbound: tunneling request to tcp:detail.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:16 [Debug] [2857516854] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:16 [Info] [2857516854] proxy/http: request to Method [CONNECT] Host [pages.tmall.com:443] with URL [//pages.tmall.com:443]
-2025/06/15 02:29:16 [Info] [2857516854] app/dispatcher: sniffed domain: pages.tmall.com
-2025/06/15 02:29:16 [Info] [2857516854] app/dispatcher: default route for tcp:pages.tmall.com:443
-2025/06/15 02:29:16 [Info] [2857516854] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:16 [Debug] [2857516854] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:16 from 127.0.0.1:56333 accepted //pages.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:16 [Info] [2857516854] proxy/vless/outbound: tunneling request to tcp:pages.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:16 [Debug] [243812291] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:16 [Info] [243812291] proxy/http: request to Method [CONNECT] Host [fourier.alibaba.com:443] with URL [//fourier.alibaba.com:443]
-2025/06/15 02:29:16 [Info] [243812291] app/dispatcher: sniffed domain: fourier.alibaba.com
-2025/06/15 02:29:16 [Info] [243812291] app/dispatcher: default route for tcp:fourier.alibaba.com:443
-2025/06/15 02:29:16 from 127.0.0.1:56335 accepted //fourier.alibaba.com:443 [socks >> proxy]
-2025/06/15 02:29:16 [Info] [243812291] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:16 [Debug] [243812291] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:17 [Debug] [80992610] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:17 [Info] [80992610] proxy/http: request to Method [CONNECT] Host [dict.eudic.net:443] with URL [//dict.eudic.net:443]
-2025/06/15 02:29:17 [Info] [80992610] app/dispatcher: sniffed domain: dict.eudic.net
-2025/06/15 02:29:17 [Info] [80992610] app/dispatcher: default route for tcp:dict.eudic.net:443
-2025/06/15 02:29:17 from 127.0.0.1:56337 accepted //dict.eudic.net:443 [socks >> proxy]
-2025/06/15 02:29:17 [Info] [80992610] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:17 [Debug] [80992610] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:17 [Info] [243812291] proxy/vless/outbound: tunneling request to tcp:fourier.alibaba.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:17 [Debug] [2707539979] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:17 [Info] [2707539979] proxy/http: request to Method [CONNECT] Host [detail.tmall.com:443] with URL [//detail.tmall.com:443]
-2025/06/15 02:29:17 from 127.0.0.1:56339 accepted //detail.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:17 [Info] [2707539979] app/dispatcher: sniffed domain: detail.tmall.com
-2025/06/15 02:29:17 [Info] [2707539979] app/dispatcher: default route for tcp:detail.tmall.com:443
-2025/06/15 02:29:17 [Info] [2707539979] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:17 [Debug] [2707539979] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:17 [Debug] [1804610256] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:17 [Info] [1804610256] proxy/http: request to Method [CONNECT] Host [detail.tmall.com:443] with URL [//detail.tmall.com:443]
-2025/06/15 02:29:17 from 127.0.0.1:56340 accepted //detail.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:17 [Info] [1804610256] app/dispatcher: sniffed domain: detail.tmall.com
-2025/06/15 02:29:17 [Info] [1804610256] app/dispatcher: default route for tcp:detail.tmall.com:443
-2025/06/15 02:29:17 [Info] [1804610256] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:17 [Debug] [1804610256] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:17 [Info] [80992610] proxy/vless/outbound: tunneling request to tcp:dict.eudic.net:443 via 104.129.164.39:8880
-2025/06/15 02:29:17 [Info] [1804610256] proxy/vless/outbound: tunneling request to tcp:detail.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:17 [Info] [2707539979] proxy/vless/outbound: tunneling request to tcp:detail.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Debug] [2895904491] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:18 [Info] [2895904491] proxy/http: request to Method [CONNECT] Host [o.alicdn.com:443] with URL [//o.alicdn.com:443]
-2025/06/15 02:29:18 [Info] [2895904491] app/dispatcher: sniffed domain: o.alicdn.com
-2025/06/15 02:29:18 [Info] [2895904491] app/dispatcher: default route for tcp:o.alicdn.com:443
-2025/06/15 02:29:18 [Info] [2895904491] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 from 127.0.0.1:56343 accepted //o.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:18 [Debug] [2895904491] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 [Debug] [188274509] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:18 [Info] [188274509] proxy/http: request to Method [CONNECT] Host [g.alicdn.com:443] with URL [//g.alicdn.com:443]
-2025/06/15 02:29:18 [Debug] [3181529625] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:18 [Info] [3181529625] proxy/http: request to Method [CONNECT] Host [g.alicdn.com:443] with URL [//g.alicdn.com:443]
-2025/06/15 02:29:18 [Debug] [1748443405] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:18 [Info] [1748443405] proxy/http: request to Method [CONNECT] Host [g.alicdn.com:443] with URL [//g.alicdn.com:443]
-2025/06/15 02:29:18 [Debug] [4284256878] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:18 [Info] [4284256878] proxy/http: request to Method [CONNECT] Host [g.alicdn.com:443] with URL [//g.alicdn.com:443]
-2025/06/15 02:29:18 [Debug] [2502306082] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:18 [Info] [2502306082] proxy/http: request to Method [CONNECT] Host [o.alicdn.com:443] with URL [//o.alicdn.com:443]
-2025/06/15 02:29:18 [Info] [188274509] app/dispatcher: sniffed domain: g.alicdn.com
-2025/06/15 02:29:18 [Info] [188274509] app/dispatcher: default route for tcp:g.alicdn.com:443
-2025/06/15 02:29:18 [Info] [188274509] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 from 127.0.0.1:56345 accepted //g.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:18 [Debug] [188274509] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [3181529625] app/dispatcher: sniffed domain: g.alicdn.com
-2025/06/15 02:29:18 [Info] [3181529625] app/dispatcher: default route for tcp:g.alicdn.com:443
-2025/06/15 02:29:18 [Info] [3181529625] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 [Debug] [3181529625] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 from 127.0.0.1:56346 accepted //g.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:18 [Debug] [603269623] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:18 [Info] [603269623] proxy/http: request to Method [CONNECT] Host [g.alicdn.com:443] with URL [//g.alicdn.com:443]
-2025/06/15 02:29:18 [Info] [1748443405] app/dispatcher: sniffed domain: g.alicdn.com
-2025/06/15 02:29:18 [Info] [1748443405] app/dispatcher: default route for tcp:g.alicdn.com:443
-2025/06/15 02:29:18 [Info] [1748443405] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 from 127.0.0.1:56347 accepted //g.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:18 [Debug] [1748443405] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [4284256878] app/dispatcher: sniffed domain: g.alicdn.com
-2025/06/15 02:29:18 [Info] [4284256878] app/dispatcher: default route for tcp:g.alicdn.com:443
-2025/06/15 02:29:18 [Info] [4284256878] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 from 127.0.0.1:56348 accepted //g.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:18 [Debug] [4284256878] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 [Debug] [3676374542] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:18 [Info] [3676374542] proxy/http: request to Method [CONNECT] Host [g.alicdn.com:443] with URL [//g.alicdn.com:443]
-2025/06/15 02:29:18 [Info] [2502306082] app/dispatcher: sniffed domain: o.alicdn.com
-2025/06/15 02:29:18 [Info] [2502306082] app/dispatcher: default route for tcp:o.alicdn.com:443
-2025/06/15 02:29:18 [Info] [2502306082] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 from 127.0.0.1:56349 accepted //o.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:18 [Debug] [2502306082] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [603269623] app/dispatcher: sniffed domain: g.alicdn.com
-2025/06/15 02:29:18 [Info] [603269623] app/dispatcher: default route for tcp:g.alicdn.com:443
-2025/06/15 02:29:18 [Info] [603269623] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 [Debug] [603269623] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 from 127.0.0.1:56350 accepted //g.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:18 [Info] [3676374542] app/dispatcher: sniffed domain: g.alicdn.com
-2025/06/15 02:29:18 [Info] [3676374542] app/dispatcher: default route for tcp:g.alicdn.com:443
-2025/06/15 02:29:18 [Info] [3676374542] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 [Debug] [3676374542] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:18 from 127.0.0.1:56351 accepted //g.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:18 [Info] [2895904491] proxy/vless/outbound: tunneling request to tcp:o.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [188274509] proxy/vless/outbound: tunneling request to tcp:g.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [4284256878] proxy/vless/outbound: tunneling request to tcp:g.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [3181529625] proxy/vless/outbound: tunneling request to tcp:g.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [1748443405] proxy/vless/outbound: tunneling request to tcp:g.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [603269623] proxy/vless/outbound: tunneling request to tcp:g.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [2502306082] proxy/vless/outbound: tunneling request to tcp:o.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [3676374542] proxy/vless/outbound: tunneling request to tcp:g.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:18 [Info] [1208729975] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:18 [Info] [2075035299] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [1303687610] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [2857516854] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [1484136470] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [4199972156] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [523543955] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [4084426657] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [461705629] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [3713467304] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [3029016308] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [3253769228] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [2430515149] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [227933923] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [394066929] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [191102030] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [2076364622] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [1753886021] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [2156116489] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [2604232763] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [430335313] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [4090365775] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [2271652756] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [2694475009] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:19 [Info] [3181529625] app/proxyman/inbound: connection ends > proxy/http: connection ends > wsasend tcp 127.0.0.1:10808->127.0.0.1:56346: wsasend: An established connection was aborted by the software in your host machine.
-2025/06/15 02:29:19 [Info] [1748443405] app/proxyman/inbound: connection ends > proxy/http: connection ends > write tcp 127.0.0.1:10808->127.0.0.1:56347: wsasend: An established connection was aborted by the software in your host machine.
-2025/06/15 02:29:19 [Info] [3676374542] app/proxyman/inbound: connection ends > proxy/http: connection ends > wsasend tcp 127.0.0.1:10808->127.0.0.1:56351: wsasend: An established connection was aborted by the software in your host machine.
-2025/06/15 02:29:19 [Info] [603269623] app/proxyman/inbound: connection ends > proxy/http: connection ends > write tcp 127.0.0.1:10808->127.0.0.1:56350: wsasend: An established connection was aborted by the software in your host machine.
-2025/06/15 02:29:19 [Debug] [3939823439] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:19 [Info] [3939823439] proxy/http: request to Method [CONNECT] Host [img.alicdn.com:443] with URL [//img.alicdn.com:443]
-2025/06/15 02:29:19 from 127.0.0.1:56359 accepted //img.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:19 [Info] [3939823439] app/dispatcher: sniffed domain: img.alicdn.com
-2025/06/15 02:29:19 [Info] [3939823439] app/dispatcher: default route for tcp:img.alicdn.com:443
-2025/06/15 02:29:19 [Info] [3939823439] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:19 [Debug] [3939823439] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:20 [Info] [3939823439] proxy/vless/outbound: tunneling request to tcp:img.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:20 [Debug] [3000247172] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:20 [Info] [3000247172] proxy/http: request to Method [CONNECT] Host [umdcv4.tmall.com:443] with URL [//umdcv4.tmall.com:443]
-2025/06/15 02:29:20 from 127.0.0.1:56363 accepted //umdcv4.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:20 [Info] [3000247172] app/dispatcher: sniffed domain: umdcv4.tmall.com
-2025/06/15 02:29:20 [Info] [3000247172] app/dispatcher: default route for tcp:umdcv4.tmall.com:443
-2025/06/15 02:29:20 [Info] [3000247172] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:20 [Debug] [3000247172] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:20 [Info] [3000247172] proxy/vless/outbound: tunneling request to tcp:umdcv4.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:21 [Debug] [2938306594] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:21 [Info] [2938306594] proxy/http: request to Method [CONNECT] Host [ebtfgv.tdum.alibaba.com:443] with URL [//ebtfgv.tdum.alibaba.com:443]
-2025/06/15 02:29:21 [Debug] [1772900931] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:21 [Info] [1772900931] proxy/http: request to Method [CONNECT] Host [ynuf.aliapp.org:443] with URL [//ynuf.aliapp.org:443]
-2025/06/15 02:29:21 [Info] [2938306594] app/dispatcher: sniffed domain: ebtfgv.tdum.alibaba.com
-2025/06/15 02:29:21 [Info] [2938306594] app/dispatcher: default route for tcp:ebtfgv.tdum.alibaba.com:443
-2025/06/15 02:29:21 [Info] [2938306594] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:21 [Debug] [2938306594] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:21 from 127.0.0.1:56365 accepted //ebtfgv.tdum.alibaba.com:443 [socks >> proxy]
-2025/06/15 02:29:21 from 127.0.0.1:56366 accepted //ynuf.aliapp.org:443 [socks >> proxy]
-2025/06/15 02:29:21 [Info] [1772900931] app/dispatcher: sniffed domain: ynuf.aliapp.org
-2025/06/15 02:29:21 [Info] [1772900931] app/dispatcher: default route for tcp:ynuf.aliapp.org:443
-2025/06/15 02:29:21 [Info] [1772900931] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:21 [Debug] [1772900931] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:21 [Debug] [1627625606] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:21 [Info] [1627625606] proxy/http: request to Method [CONNECT] Host [ws.mmstat.com:443] with URL [//ws.mmstat.com:443]
-2025/06/15 02:29:21 [Info] [1627625606] app/dispatcher: sniffed domain: ws.mmstat.com
-2025/06/15 02:29:21 [Info] [1627625606] app/dispatcher: default route for tcp:ws.mmstat.com:443
-2025/06/15 02:29:21 [Info] [1627625606] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:21 [Debug] [1627625606] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:21 from 127.0.0.1:56369 accepted //ws.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:21 [Info] [2938306594] proxy/vless/outbound: tunneling request to tcp:ebtfgv.tdum.alibaba.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:21 [Info] [1772900931] proxy/vless/outbound: tunneling request to tcp:ynuf.aliapp.org:443 via 104.129.164.39:8880
-2025/06/15 02:29:22 [Info] [1627625606] proxy/vless/outbound: tunneling request to tcp:ws.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:22 [Debug] [32171822] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:22 [Info] [32171822] proxy/http: request to Method [CONNECT] Host [umdcv4.tmall.com:443] with URL [//umdcv4.tmall.com:443]
-2025/06/15 02:29:22 [Info] [32171822] app/dispatcher: sniffed domain: umdcv4.tmall.com
-2025/06/15 02:29:22 [Info] [32171822] app/dispatcher: default route for tcp:umdcv4.tmall.com:443
-2025/06/15 02:29:22 from 127.0.0.1:56371 accepted //umdcv4.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:22 [Info] [32171822] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:22 [Debug] [32171822] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:22 [Info] [32171822] proxy/vless/outbound: tunneling request to tcp:umdcv4.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:22 [Debug] [1643484420] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:22 [Info] [1643484420] proxy/http: request to Method [CONNECT] Host [log.mmstat.com:443] with URL [//log.mmstat.com:443]
-2025/06/15 02:29:22 [Info] [1643484420] app/dispatcher: sniffed domain: log.mmstat.com
-2025/06/15 02:29:22 [Info] [1643484420] app/dispatcher: default route for tcp:log.mmstat.com:443
-2025/06/15 02:29:22 from 127.0.0.1:56373 accepted //log.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:22 [Info] [1643484420] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:22 [Debug] [1643484420] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:23 [Info] [1643484420] proxy/vless/outbound: tunneling request to tcp:log.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:23 [Info] [3000247172] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:23 [Debug] [2784897883] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:23 [Info] [2784897883] proxy/http: request to Method [CONNECT] Host [www.taobao.com:443] with URL [//www.taobao.com:443]
-2025/06/15 02:29:23 [Info] [2784897883] app/dispatcher: sniffed domain: www.taobao.com
-2025/06/15 02:29:23 [Info] [2784897883] app/dispatcher: taking detour [direct] for [tcp:www.taobao.com:443]
-2025/06/15 02:29:23 [Info] [2784897883] transport/internet/tcp: dialing TCP to tcp:www.taobao.com:443
-2025/06/15 02:29:23 [Debug] [2784897883] transport/internet: dialing to tcp:www.taobao.com:443
-2025/06/15 02:29:23 from 127.0.0.1:56375 accepted //www.taobao.com:443 [socks -> direct]
-2025/06/15 02:29:23 [Info] [2784897883] proxy/freedom: connection opened to tcp:www.taobao.com:443, local endpoint 192.168.3.11:56376, remote endpoint 223.111.255.184:443
-2025/06/15 02:29:23 [Info] [2784897883] proxy: CopyRawConn readv
-2025/06/15 02:29:23 [Debug] [3825675059] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:23 [Info] [3825675059] proxy/http: request to Method [CONNECT] Host [at.alicdn.com:443] with URL [//at.alicdn.com:443]
-2025/06/15 02:29:23 [Info] [3825675059] app/dispatcher: sniffed domain: at.alicdn.com
-2025/06/15 02:29:23 [Info] [3825675059] app/dispatcher: default route for tcp:at.alicdn.com:443
-2025/06/15 02:29:23 [Info] [3825675059] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:23 from 127.0.0.1:56377 accepted //at.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:23 [Debug] [3825675059] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:23 [Debug] [2321940186] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:23 [Info] [2321940186] proxy/http: request to Method [CONNECT] Host [umdc.tmall.com:443] with URL [//umdc.tmall.com:443]
-2025/06/15 02:29:23 [Debug] [2548393866] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:23 [Info] [2548393866] proxy/http: request to Method [CONNECT] Host [umdc.tmall.com:443] with URL [//umdc.tmall.com:443]
-2025/06/15 02:29:23 from 127.0.0.1:56379 accepted //umdc.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:23 [Info] [2321940186] app/dispatcher: sniffed domain: umdc.tmall.com
-2025/06/15 02:29:23 [Info] [2321940186] app/dispatcher: default route for tcp:umdc.tmall.com:443
-2025/06/15 02:29:23 [Info] [2321940186] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:23 [Debug] [2321940186] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:23 from 127.0.0.1:56380 accepted //umdc.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:23 [Info] [2548393866] app/dispatcher: sniffed domain: umdc.tmall.com
-2025/06/15 02:29:23 [Info] [2548393866] app/dispatcher: default route for tcp:umdc.tmall.com:443
-2025/06/15 02:29:23 [Info] [2548393866] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:23 [Debug] [2548393866] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:23 [Debug] [2337517593] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:23 [Info] [2337517593] proxy/http: request to Method [CONNECT] Host [g.alicdn.com:443] with URL [//g.alicdn.com:443]
-2025/06/15 02:29:23 [Info] [3825675059] proxy/vless/outbound: tunneling request to tcp:at.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:23 from 127.0.0.1:56383 accepted //g.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:23 [Info] [2337517593] app/dispatcher: sniffed domain: g.alicdn.com
-2025/06/15 02:29:23 [Info] [2337517593] app/dispatcher: default route for tcp:g.alicdn.com:443
-2025/06/15 02:29:23 [Info] [2337517593] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:23 [Debug] [2337517593] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:24 [Info] [2321940186] proxy/vless/outbound: tunneling request to tcp:umdc.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:24 [Info] [2548393866] proxy/vless/outbound: tunneling request to tcp:umdc.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:24 [Info] [2337517593] proxy/vless/outbound: tunneling request to tcp:g.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:24 [Info] [1772900931] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:24 [Debug] [1120501775] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:24 [Info] [1120501775] proxy/http: request to Method [CONNECT] Host [h5api.m.tmall.com:443] with URL [//h5api.m.tmall.com:443]
-2025/06/15 02:29:24 [Info] [1120501775] app/dispatcher: sniffed domain: h5api.m.tmall.com
-2025/06/15 02:29:24 [Info] [1120501775] app/dispatcher: default route for tcp:h5api.m.tmall.com:443
-2025/06/15 02:29:24 [Info] [1120501775] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:24 from 127.0.0.1:56385 accepted //h5api.m.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:24 [Debug] [1120501775] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:24 [Debug] [150003548] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:24 [Info] [150003548] proxy/http: request to Method [CONNECT] Host [s-gm.mmstat.com:443] with URL [//s-gm.mmstat.com:443]
-2025/06/15 02:29:24 [Info] [150003548] app/dispatcher: sniffed domain: s-gm.mmstat.com
-2025/06/15 02:29:24 [Info] [150003548] app/dispatcher: default route for tcp:s-gm.mmstat.com:443
-2025/06/15 02:29:24 [Info] [150003548] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:24 from 127.0.0.1:56387 accepted //s-gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:24 [Debug] [150003548] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 [Info] [32171822] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:25 [Info] [1120501775] proxy/vless/outbound: tunneling request to tcp:h5api.m.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:25 [Info] [150003548] proxy/vless/outbound: tunneling request to tcp:s-gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:25 [Debug] [3896524087] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:25 [Info] [3896524087] proxy/http: request to Method [CONNECT] Host [umdc.tmall.com:443] with URL [//umdc.tmall.com:443]
-2025/06/15 02:29:25 from 127.0.0.1:56389 accepted //umdc.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:25 [Info] [3896524087] app/dispatcher: sniffed domain: umdc.tmall.com
-2025/06/15 02:29:25 [Info] [3896524087] app/dispatcher: default route for tcp:umdc.tmall.com:443
-2025/06/15 02:29:25 [Info] [3896524087] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 [Debug] [3896524087] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 [Debug] [1306050678] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:25 [Info] [1306050678] proxy/http: request to Method [CONNECT] Host [s-gm.mmstat.com:443] with URL [//s-gm.mmstat.com:443]
-2025/06/15 02:29:25 [Info] [1306050678] app/dispatcher: sniffed domain: s-gm.mmstat.com
-2025/06/15 02:29:25 [Info] [1306050678] app/dispatcher: default route for tcp:s-gm.mmstat.com:443
-2025/06/15 02:29:25 [Info] [1306050678] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 from 127.0.0.1:56391 accepted //s-gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:25 [Debug] [1306050678] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 [Debug] [3597883460] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:25 [Info] [3597883460] proxy/http: request to Method [CONNECT] Host [ws.mmstat.com:443] with URL [//ws.mmstat.com:443]
-2025/06/15 02:29:25 from 127.0.0.1:56393 accepted //ws.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:25 [Info] [3597883460] app/dispatcher: sniffed domain: ws.mmstat.com
-2025/06/15 02:29:25 [Info] [3597883460] app/dispatcher: default route for tcp:ws.mmstat.com:443
-2025/06/15 02:29:25 [Info] [3597883460] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 [Debug] [3597883460] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 [Debug] [3148091588] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:25 [Info] [3148091588] proxy/http: request to Method [CONNECT] Host [log.mmstat.com:443] with URL [//log.mmstat.com:443]
-2025/06/15 02:29:25 from 127.0.0.1:56395 accepted //log.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:25 [Info] [3148091588] app/dispatcher: sniffed domain: log.mmstat.com
-2025/06/15 02:29:25 [Info] [3148091588] app/dispatcher: default route for tcp:log.mmstat.com:443
-2025/06/15 02:29:25 [Info] [3148091588] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 [Debug] [3148091588] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:25 [Info] [3896524087] proxy/vless/outbound: tunneling request to tcp:umdc.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:25 [Info] [1306050678] proxy/vless/outbound: tunneling request to tcp:s-gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:26 [Info] [3148091588] proxy/vless/outbound: tunneling request to tcp:log.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:26 [Info] [3597883460] proxy/vless/outbound: tunneling request to tcp:ws.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:26 [Info] [2321940186] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:26 [Info] [2548393866] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:26 [Debug] [1777180881] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:26 [Info] [1777180881] proxy/http: request to Method [CONNECT] Host [s-gm.mmstat.com:443] with URL [//s-gm.mmstat.com:443]
-2025/06/15 02:29:26 [Info] [1777180881] app/dispatcher: sniffed domain: s-gm.mmstat.com
-2025/06/15 02:29:26 [Info] [1777180881] app/dispatcher: default route for tcp:s-gm.mmstat.com:443
-2025/06/15 02:29:26 [Info] [1777180881] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:26 [Debug] [1777180881] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:26 from 127.0.0.1:56397 accepted //s-gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:27 [Info] [1777180881] proxy/vless/outbound: tunneling request to tcp:s-gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:27 [Info] [3896524087] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:27 [Info] [1777180881] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:28 [Debug] [1145198047] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:28 [Info] [1145198047] proxy/http: request to Method [CONNECT] Host [gm.mmstat.com:443] with URL [//gm.mmstat.com:443]
-2025/06/15 02:29:28 [Info] [1145198047] app/dispatcher: sniffed domain: gm.mmstat.com
-2025/06/15 02:29:28 from 127.0.0.1:56399 accepted //gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:28 [Info] [1145198047] app/dispatcher: default route for tcp:gm.mmstat.com:443
-2025/06/15 02:29:28 [Info] [1145198047] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Debug] [1145198047] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Debug] [2270542668] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:28 [Info] [2270542668] proxy/http: request to Method [CONNECT] Host [gm.mmstat.com:443] with URL [//gm.mmstat.com:443]
-2025/06/15 02:29:28 [Info] [2270542668] app/dispatcher: sniffed domain: gm.mmstat.com
-2025/06/15 02:29:28 [Info] [2270542668] app/dispatcher: default route for tcp:gm.mmstat.com:443
-2025/06/15 02:29:28 [Info] [2270542668] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 from 127.0.0.1:56401 accepted //gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:28 [Debug] [2270542668] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Debug] [1907121846] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:28 [Info] [1907121846] proxy/http: request to Method [CONNECT] Host [gm.mmstat.com:443] with URL [//gm.mmstat.com:443]
-2025/06/15 02:29:28 [Info] [1907121846] app/dispatcher: sniffed domain: gm.mmstat.com
-2025/06/15 02:29:28 [Info] [1907121846] app/dispatcher: default route for tcp:gm.mmstat.com:443
-2025/06/15 02:29:28 [Info] [1907121846] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Debug] [1907121846] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 from 127.0.0.1:56403 accepted //gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:28 [Debug] [3538986188] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:28 [Info] [3538986188] proxy/http: request to Method [CONNECT] Host [edge.microsoft.com:443] with URL [//edge.microsoft.com:443]
-2025/06/15 02:29:28 [Info] [3538986188] app/dispatcher: sniffed domain: edge.microsoft.com
-2025/06/15 02:29:28 [Info] [3538986188] app/dispatcher: default route for tcp:edge.microsoft.com:443
-2025/06/15 02:29:28 [Info] [3538986188] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Debug] [3538986188] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 from 127.0.0.1:56405 accepted //edge.microsoft.com:443 [socks >> proxy]
-2025/06/15 02:29:28 [Debug] [2536209066] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:28 [Info] [2536209066] proxy/http: request to Method [CONNECT] Host [signaler-pa.clients6.google.com:443] with URL [//signaler-pa.clients6.google.com:443]
-2025/06/15 02:29:28 [Info] [2536209066] app/dispatcher: sniffed domain: signaler-pa.clients6.google.com
-2025/06/15 02:29:28 [Info] [2536209066] app/dispatcher: default route for tcp:signaler-pa.clients6.google.com:443
-2025/06/15 02:29:28 [Info] [2536209066] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Debug] [2536209066] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 from 127.0.0.1:56407 accepted //signaler-pa.clients6.google.com:443 [socks >> proxy]
-2025/06/15 02:29:28 [Info] [1145198047] proxy/vless/outbound: tunneling request to tcp:gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:28 [Info] [2270542668] proxy/vless/outbound: tunneling request to tcp:gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:28 [Info] [1907121846] proxy/vless/outbound: tunneling request to tcp:gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:28 [Debug] [3061628939] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:28 [Debug] [2089637186] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:28 [Debug] [3053704766] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:28 [Info] [3061628939] proxy/http: request to Method [CONNECT] Host [gw.alicdn.com:443] with URL [//gw.alicdn.com:443]
-2025/06/15 02:29:28 [Info] [2089637186] proxy/http: request to Method [CONNECT] Host [gm.mmstat.com:443] with URL [//gm.mmstat.com:443]
-2025/06/15 02:29:28 [Info] [3053704766] proxy/http: request to Method [CONNECT] Host [gm.mmstat.com:443] with URL [//gm.mmstat.com:443]
-2025/06/15 02:29:28 [Info] [3053704766] app/dispatcher: sniffed domain: gm.mmstat.com
-2025/06/15 02:29:28 [Info] [3053704766] app/dispatcher: default route for tcp:gm.mmstat.com:443
-2025/06/15 02:29:28 [Info] [3053704766] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 from 127.0.0.1:56409 accepted //gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:28 [Debug] [3053704766] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Info] [3061628939] app/dispatcher: sniffed domain: gw.alicdn.com
-2025/06/15 02:29:28 [Info] [3061628939] app/dispatcher: default route for tcp:gw.alicdn.com:443
-2025/06/15 02:29:28 from 127.0.0.1:56411 accepted //gw.alicdn.com:443 [socks >> proxy]
-2025/06/15 02:29:28 [Info] [3061628939] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Debug] [3061628939] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Info] [2089637186] app/dispatcher: sniffed domain: gm.mmstat.com
-2025/06/15 02:29:28 [Info] [2089637186] app/dispatcher: default route for tcp:gm.mmstat.com:443
-2025/06/15 02:29:28 [Info] [2089637186] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 from 127.0.0.1:56410 accepted //gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:28 [Debug] [2089637186] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:28 [Info] [150003548] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:28 [Info] [3538986188] proxy/vless/outbound: tunneling request to tcp:edge.microsoft.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:29 [Info] [2536209066] proxy/vless/outbound: tunneling request to tcp:signaler-pa.clients6.google.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:29 [Debug] [1512103492] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:29 [Info] [1512103492] proxy/http: request to Method [CONNECT] Host [signaler-pa.clients6.google.com:443] with URL [//signaler-pa.clients6.google.com:443]
-2025/06/15 02:29:29 [Debug] [2756972367] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:29 [Info] [2756972367] proxy/http: request to Method [CONNECT] Host [vscode-sync.trafficmanager.net:443] with URL [//vscode-sync.trafficmanager.net:443]
-2025/06/15 02:29:29 from 127.0.0.1:56416 accepted //vscode-sync.trafficmanager.net:443 [socks >> proxy]
-2025/06/15 02:29:29 [Info] [2756972367] app/dispatcher: sniffed domain: vscode-sync.trafficmanager.net
-2025/06/15 02:29:29 [Info] [2756972367] app/dispatcher: default route for tcp:vscode-sync.trafficmanager.net:443
-2025/06/15 02:29:29 [Info] [2756972367] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:29 [Debug] [2756972367] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:29 from 127.0.0.1:56415 accepted //signaler-pa.clients6.google.com:443 [socks >> proxy]
-2025/06/15 02:29:29 [Info] [1512103492] app/dispatcher: sniffed domain: signaler-pa.clients6.google.com
-2025/06/15 02:29:29 [Info] [1512103492] app/dispatcher: default route for tcp:signaler-pa.clients6.google.com:443
-2025/06/15 02:29:29 [Info] [1512103492] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:29 [Debug] [1512103492] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:29 [Info] [2089637186] proxy/vless/outbound: tunneling request to tcp:gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:29 [Info] [3061628939] proxy/vless/outbound: tunneling request to tcp:gw.alicdn.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:29 [Info] [3053704766] proxy/vless/outbound: tunneling request to tcp:gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:29 [Debug] [1965458415] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:29 [Info] [1965458415] proxy/http: request to Method [CONNECT] Host [gm.mmstat.com:443] with URL [//gm.mmstat.com:443]
-2025/06/15 02:29:29 [Info] [1965458415] app/dispatcher: sniffed domain: gm.mmstat.com
-2025/06/15 02:29:29 [Info] [1965458415] app/dispatcher: default route for tcp:gm.mmstat.com:443
-2025/06/15 02:29:29 [Info] [1965458415] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:29 [Debug] [1965458415] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:29 from 127.0.0.1:56419 accepted //gm.mmstat.com:443 [socks >> proxy]
-2025/06/15 02:29:29 [Info] [2756972367] proxy/vless/outbound: tunneling request to tcp:vscode-sync.trafficmanager.net:443 via 104.129.164.39:8880
-2025/06/15 02:29:29 [Info] [1512103492] proxy/vless/outbound: tunneling request to tcp:signaler-pa.clients6.google.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:29 [Info] [2270542668] app/proxyman/inbound: connection ends > proxy/http: connection ends > write tcp 127.0.0.1:10808->127.0.0.1:56401: wsasend: An established connection was aborted by the software in your host machine.
-2025/06/15 02:29:29 [Info] [1965458415] proxy/vless/outbound: tunneling request to tcp:gm.mmstat.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:29 [Info] [1512103492] app/proxyman/inbound: connection ends > proxy/http: connection ends > write tcp 127.0.0.1:10808->127.0.0.1:56415: wsasend: An established connection was aborted by the software in your host machine.
-2025/06/15 02:29:29 [Info] [3053704766] app/proxyman/inbound: connection ends > proxy/http: connection ends > write tcp 127.0.0.1:10808->127.0.0.1:56409: wsasend: An established connection was aborted by the software in your host machine.
-2025/06/15 02:29:30 [Info] [2089637186] app/proxyman/inbound: connection ends > proxy/http: connection ends > write tcp 127.0.0.1:10808->127.0.0.1:56410: wsasend: An established connection was aborted by the software in your host machine.
-2025/06/15 02:29:30 [Info] [1965458415] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:30 [Debug] [1066940171] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:30 [Info] [1066940171] proxy/http: request to Method [CONNECT] Host [login.taobao.com:443] with URL [//login.taobao.com:443]
-2025/06/15 02:29:30 [Info] [1066940171] app/dispatcher: sniffed domain: login.taobao.com
-2025/06/15 02:29:30 [Info] [1066940171] app/dispatcher: taking detour [direct] for [tcp:login.taobao.com:443]
-2025/06/15 02:29:30 [Info] [1066940171] transport/internet/tcp: dialing TCP to tcp:login.taobao.com:443
-2025/06/15 02:29:30 [Debug] [1066940171] transport/internet: dialing to tcp:login.taobao.com:443
-2025/06/15 02:29:30 from 127.0.0.1:56421 accepted //login.taobao.com:443 [socks -> direct]
-2025/06/15 02:29:30 [Info] [1066940171] proxy/freedom: connection opened to tcp:login.taobao.com:443, local endpoint 192.168.3.11:56422, remote endpoint 203.119.169.39:443
-2025/06/15 02:29:30 [Info] [1066940171] proxy: CopyRawConn readv
-2025/06/15 02:29:31 [Debug] [3958806823] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:31 [Info] [3958806823] proxy/http: request to Method [CONNECT] Host [pcookie.tmall.com:443] with URL [//pcookie.tmall.com:443]
-2025/06/15 02:29:31 [Info] [3958806823] app/dispatcher: sniffed domain: pcookie.tmall.com
-2025/06/15 02:29:31 [Info] [3958806823] app/dispatcher: default route for tcp:pcookie.tmall.com:443
-2025/06/15 02:29:31 [Info] [3958806823] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:31 from 127.0.0.1:56423 accepted //pcookie.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:31 [Debug] [3958806823] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:31 [Info] [1907121846] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:31 [Info] [3958806823] proxy/vless/outbound: tunneling request to tcp:pcookie.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:32 [Debug] [1447302163] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:32 [Info] [1447302163] proxy/http: request to Method [CONNECT] Host [www.bing.com:443] with URL [//www.bing.com:443]
-2025/06/15 02:29:32 [Info] [1447302163] app/dispatcher: sniffed domain: www.bing.com
-2025/06/15 02:29:32 [Info] [1447302163] app/dispatcher: default route for tcp:www.bing.com:443
-2025/06/15 02:29:32 [Info] [1447302163] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:32 [Debug] [1447302163] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:32 from 127.0.0.1:56425 accepted //www.bing.com:443 [socks >> proxy]
-2025/06/15 02:29:33 [Info] [1447302163] proxy/vless/outbound: tunneling request to tcp:www.bing.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:35 [Info] [3958806823] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:36 [Debug] [1325157014] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:36 [Info] [1325157014] proxy/http: request to Method [CONNECT] Host [pass.tmall.hk:443] with URL [//pass.tmall.hk:443]
-2025/06/15 02:29:36 [Info] [1325157014] app/dispatcher: sniffed domain: pass.tmall.hk
-2025/06/15 02:29:36 [Info] [1325157014] app/dispatcher: default route for tcp:pass.tmall.hk:443
-2025/06/15 02:29:36 from 127.0.0.1:56427 accepted //pass.tmall.hk:443 [socks >> proxy]
-2025/06/15 02:29:36 [Info] [1325157014] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:36 [Debug] [1325157014] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:36 [Debug] [2664191658] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:36 [Info] [2664191658] proxy/http: request to Method [CONNECT] Host [pass.fliggy.com:443] with URL [//pass.fliggy.com:443]
-2025/06/15 02:29:36 [Info] [2664191658] app/dispatcher: sniffed domain: pass.fliggy.com
-2025/06/15 02:29:36 [Info] [2664191658] app/dispatcher: default route for tcp:pass.fliggy.com:443
-2025/06/15 02:29:36 [Info] [2664191658] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:36 from 127.0.0.1:56429 accepted //pass.fliggy.com:443 [socks >> proxy]
-2025/06/15 02:29:36 [Debug] [2664191658] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:36 [Debug] [3862508470] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:36 [Info] [3862508470] proxy/http: request to Method [CONNECT] Host [pass.tmall.com:443] with URL [//pass.tmall.com:443]
-2025/06/15 02:29:36 [Info] [3862508470] app/dispatcher: sniffed domain: pass.tmall.com
-2025/06/15 02:29:36 [Info] [3862508470] app/dispatcher: default route for tcp:pass.tmall.com:443
-2025/06/15 02:29:36 from 127.0.0.1:56431 accepted //pass.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:36 [Info] [3862508470] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:36 [Debug] [3862508470] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:36 [Info] [2664191658] proxy/vless/outbound: tunneling request to tcp:pass.fliggy.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:37 [Info] [3862508470] proxy/vless/outbound: tunneling request to tcp:pass.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:37 [Info] [80992610] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
-2025/06/15 02:29:38 [Debug] [1165245710] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:38 [Info] [1165245710] proxy/http: request to Method [CONNECT] Host [www.tmall.com:443] with URL [//www.tmall.com:443]
-2025/06/15 02:29:38 [Info] [1165245710] app/dispatcher: sniffed domain: www.tmall.com
-2025/06/15 02:29:38 from 127.0.0.1:56433 accepted //www.tmall.com:443 [socks >> proxy]
-2025/06/15 02:29:38 [Info] [1165245710] app/dispatcher: default route for tcp:www.tmall.com:443
-2025/06/15 02:29:38 [Info] [1165245710] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:38 [Debug] [1165245710] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:38 [Debug] [570434231] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:38 [Info] [570434231] proxy/http: request to Method [CONNECT] Host [www.fliggy.com:443] with URL [//www.fliggy.com:443]
-2025/06/15 02:29:38 [Info] [570434231] app/dispatcher: sniffed domain: www.fliggy.com
-2025/06/15 02:29:38 [Info] [570434231] app/dispatcher: default route for tcp:www.fliggy.com:443
-2025/06/15 02:29:38 from 127.0.0.1:56435 accepted //www.fliggy.com:443 [socks >> proxy]
-2025/06/15 02:29:38 [Info] [570434231] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:38 [Debug] [570434231] transport/internet: dialing to tcp:104.129.164.39:8880
-2025/06/15 02:29:38 [Info] [1165245710] proxy/vless/outbound: tunneling request to tcp:www.tmall.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:38 [Info] [1325157014] proxy/vless/outbound: tunneling request to tcp:pass.tmall.hk:443 via 104.129.164.39:8880
-2025/06/15 02:29:38 [Info] [570434231] proxy/vless/outbound: tunneling request to tcp:www.fliggy.com:443 via 104.129.164.39:8880
-2025/06/15 02:29:40 [Debug] [3422331021] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:40 [Info] [3422331021] proxy/http: request to Method [CONNECT] Host [sns.m.taobao.com:443] with URL [//sns.m.taobao.com:443]
-2025/06/15 02:29:40 [Info] [3422331021] app/dispatcher: sniffed domain: sns.m.taobao.com
-2025/06/15 02:29:40 [Info] [3422331021] app/dispatcher: taking detour [direct] for [tcp:sns.m.taobao.com:443]
-2025/06/15 02:29:40 [Info] [3422331021] transport/internet/tcp: dialing TCP to tcp:sns.m.taobao.com:443
-2025/06/15 02:29:40 [Debug] [3422331021] transport/internet: dialing to tcp:sns.m.taobao.com:443
-2025/06/15 02:29:40 from 127.0.0.1:56437 accepted //sns.m.taobao.com:443 [socks -> direct]
-2025/06/15 02:29:40 [Info] [3422331021] proxy/freedom: connection opened to tcp:sns.m.taobao.com:443, local endpoint 192.168.3.11:56438, remote endpoint 223.111.255.184:443
-2025/06/15 02:29:40 [Info] [3422331021] proxy: CopyRawConn readv
-2025/06/15 02:29:40 [Debug] [1988698069] proxy/socks: Not Socks request, try to parse as HTTP request
-2025/06/15 02:29:40 [Info] [1988698069] proxy/http: request to Method [CONNECT] Host [list.tmall.hk:443] with URL [//list.tmall.hk:443]
-2025/06/15 02:29:40 [Info] [1988698069] app/dispatcher: sniffed domain: list.tmall.hk
-2025/06/15 02:29:40 from 127.0.0.1:56439 accepted //list.tmall.hk:443 [socks >> proxy]
-2025/06/15 02:29:40 [Info] [1988698069] app/dispatcher: default route for tcp:list.tmall.hk:443
-2025/06/15 02:29:40 [Info] [1988698069] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
-2025/06/15 02:29:40 [Debug] [1988698069] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [1489530687] app/dispatcher: default route for tcp:c.bing.com:443
+2025/06/15 02:43:26 [Info] [1489530687] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [1489530687] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [1018054566] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:26 [Info] [1018054566] proxy/http: request to Method [CONNECT] Host [api.msn.com:443] with URL [//api.msn.com:443]
+2025/06/15 02:43:26 [Debug] [71387541] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:26 [Info] [71387541] proxy/http: request to Method [CONNECT] Host [browser.events.data.msn.com:443] with URL [//browser.events.data.msn.com:443]
+2025/06/15 02:43:26 from 127.0.0.1:60391 accepted //api.msn.com:443 [socks >> proxy]
+2025/06/15 02:43:26 [Info] [1018054566] app/dispatcher: sniffed domain: api.msn.com
+2025/06/15 02:43:26 [Info] [1018054566] app/dispatcher: default route for tcp:api.msn.com:443
+2025/06/15 02:43:26 [Info] [1018054566] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [1018054566] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [2324911667] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:26 [Info] [2324911667] proxy/http: request to Method [CONNECT] Host [th.bing.com:443] with URL [//th.bing.com:443]
+2025/06/15 02:43:26 from 127.0.0.1:60393 accepted //th.bing.com:443 [socks >> proxy]
+2025/06/15 02:43:26 [Info] [2324911667] app/dispatcher: sniffed domain: th.bing.com
+2025/06/15 02:43:26 [Info] [2324911667] app/dispatcher: default route for tcp:th.bing.com:443
+2025/06/15 02:43:26 [Info] [2324911667] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [2324911667] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [117667580] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:26 [Info] [117667580] proxy/http: request to Method [CONNECT] Host [sb.scorecardresearch.com:443] with URL [//sb.scorecardresearch.com:443]
+2025/06/15 02:43:26 [Info] [71387541] app/dispatcher: sniffed domain: browser.events.data.msn.com
+2025/06/15 02:43:26 [Info] [71387541] app/dispatcher: default route for tcp:browser.events.data.msn.com:443
+2025/06/15 02:43:26 [Info] [71387541] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [71387541] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [1127741124] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:26 [Info] [1127741124] proxy/http: request to Method [CONNECT] Host [img-s-msn-com.akamaized.net:443] with URL [//img-s-msn-com.akamaized.net:443]
+2025/06/15 02:43:26 [Info] [1127741124] app/dispatcher: sniffed domain: img-s-msn-com.akamaized.net
+2025/06/15 02:43:26 [Info] [1127741124] app/dispatcher: default route for tcp:img-s-msn-com.akamaized.net:443
+2025/06/15 02:43:26 [Info] [1127741124] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [1127741124] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [117667580] app/dispatcher: sniffed domain: sb.scorecardresearch.com
+2025/06/15 02:43:26 [Info] [117667580] app/dispatcher: default route for tcp:sb.scorecardresearch.com:443
+2025/06/15 02:43:26 [Debug] [3196494658] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:26 [Info] [3196494658] proxy/http: request to Method [CONNECT] Host [edge.microsoft.com:443] with URL [//edge.microsoft.com:443]
+2025/06/15 02:43:26 [Info] [3196494658] app/dispatcher: sniffed domain: edge.microsoft.com
+2025/06/15 02:43:26 [Info] [3196494658] app/dispatcher: default route for tcp:edge.microsoft.com:443
+2025/06/15 02:43:26 [Info] [3196494658] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 [Debug] [3196494658] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:26 from 127.0.0.1:60392 accepted //browser.events.data.msn.com:443 [socks >> proxy]
+2025/06/15 02:43:26 from 127.0.0.1:60395 accepted //img-s-msn-com.akamaized.net:443 [socks >> proxy]
+2025/06/15 02:43:26 from 127.0.0.1:60394 accepted //sb.scorecardresearch.com:443 [socks >> proxy]
+2025/06/15 02:43:26 from 127.0.0.1:60406 accepted //edge.microsoft.com:443 [socks >> proxy]
+2025/06/15 02:43:26 [Info] [2022651391] proxy/vless/outbound: tunneling request to tcp:ntp.msn.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [2034587830] proxy/vless/outbound: tunneling request to tcp:assets.msn.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [1489530687] proxy/vless/outbound: tunneling request to tcp:c.bing.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [1842795743] proxy/vless/outbound: tunneling request to tcp:assets.msn.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [1018054566] proxy/vless/outbound: tunneling request to tcp:api.msn.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [2324911667] proxy/vless/outbound: tunneling request to tcp:th.bing.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [71387541] proxy/vless/outbound: tunneling request to tcp:browser.events.data.msn.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [1905211831] proxy/vless/outbound: tunneling request to tcp:www.bing.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [1864227565] proxy/vless/outbound: tunneling request to tcp:c.msn.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [117667580] proxy/vless/outbound: tunneling request to tcp:sb.scorecardresearch.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [1127741124] proxy/vless/outbound: tunneling request to tcp:img-s-msn-com.akamaized.net:443 via 104.129.164.39:8880
+2025/06/15 02:43:26 [Info] [3196494658] proxy/vless/outbound: tunneling request to tcp:edge.microsoft.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:27 [Debug] [163790646] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:27 [Info] [163790646] proxy/http: request to Method [CONNECT] Host [r.bing.com:443] with URL [//r.bing.com:443]
+2025/06/15 02:43:27 from 127.0.0.1:60408 accepted //r.bing.com:443 [socks >> proxy]
+2025/06/15 02:43:27 [Info] [163790646] app/dispatcher: sniffed domain: r.bing.com
+2025/06/15 02:43:27 [Info] [163790646] app/dispatcher: default route for tcp:r.bing.com:443
+2025/06/15 02:43:27 [Info] [163790646] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 [Debug] [163790646] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 [Debug] [1412986820] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:27 [Info] [1412986820] proxy/http: request to Method [CONNECT] Host [r.bing.com:443] with URL [//r.bing.com:443]
+2025/06/15 02:43:27 [Debug] [2442479456] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:27 [Info] [2442479456] proxy/http: request to Method [CONNECT] Host [r.msftstatic.com:443] with URL [//r.msftstatic.com:443]
+2025/06/15 02:43:27 [Debug] [4167785556] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:27 [Info] [4167785556] proxy/http: request to Method [CONNECT] Host [www.bing.com:443] with URL [//www.bing.com:443]
+2025/06/15 02:43:27 from 127.0.0.1:60410 accepted //r.msftstatic.com:443 [socks >> proxy]
+2025/06/15 02:43:27 [Info] [2442479456] app/dispatcher: sniffed domain: r.msftstatic.com
+2025/06/15 02:43:27 [Info] [2442479456] app/dispatcher: default route for tcp:r.msftstatic.com:443
+2025/06/15 02:43:27 [Info] [2442479456] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 [Debug] [2442479456] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 from 127.0.0.1:60409 accepted //r.bing.com:443 [socks >> proxy]
+2025/06/15 02:43:27 [Info] [1412986820] app/dispatcher: sniffed domain: r.bing.com
+2025/06/15 02:43:27 [Info] [1412986820] app/dispatcher: default route for tcp:r.bing.com:443
+2025/06/15 02:43:27 [Info] [1412986820] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 [Debug] [1412986820] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 from 127.0.0.1:60411 accepted //www.bing.com:443 [socks >> proxy]
+2025/06/15 02:43:27 [Info] [4167785556] app/dispatcher: sniffed domain: www.bing.com
+2025/06/15 02:43:27 [Info] [4167785556] app/dispatcher: default route for tcp:www.bing.com:443
+2025/06/15 02:43:27 [Info] [4167785556] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 [Debug] [4167785556] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 [Debug] [3128368799] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:27 [Info] [3128368799] proxy/http: request to Method [CONNECT] Host [r.msftstatic.com:443] with URL [//r.msftstatic.com:443]
+2025/06/15 02:43:27 from 127.0.0.1:60416 accepted //r.msftstatic.com:443 [socks >> proxy]
+2025/06/15 02:43:27 [Info] [3128368799] app/dispatcher: sniffed domain: r.msftstatic.com
+2025/06/15 02:43:27 [Info] [3128368799] app/dispatcher: default route for tcp:r.msftstatic.com:443
+2025/06/15 02:43:27 [Info] [3128368799] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 [Debug] [3128368799] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:27 [Info] [1412986820] proxy/vless/outbound: tunneling request to tcp:r.bing.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:27 [Info] [4167785556] proxy/vless/outbound: tunneling request to tcp:www.bing.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:27 [Info] [163790646] proxy/vless/outbound: tunneling request to tcp:r.bing.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:27 [Info] [2442479456] proxy/vless/outbound: tunneling request to tcp:r.msftstatic.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:27 [Info] [3128368799] proxy/vless/outbound: tunneling request to tcp:r.msftstatic.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:31 [Debug] [161647887] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:31 [Info] [161647887] proxy/http: request to Method [CONNECT] Host [th.bing.com:443] with URL [//th.bing.com:443]
+2025/06/15 02:43:31 [Debug] [2511692390] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:31 [Info] [2511692390] proxy/http: request to Method [CONNECT] Host [th.bing.com:443] with URL [//th.bing.com:443]
+2025/06/15 02:43:31 from 127.0.0.1:60418 accepted //th.bing.com:443 [socks >> proxy]
+2025/06/15 02:43:31 [Info] [161647887] app/dispatcher: sniffed domain: th.bing.com
+2025/06/15 02:43:31 [Info] [161647887] app/dispatcher: default route for tcp:th.bing.com:443
+2025/06/15 02:43:31 [Info] [161647887] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:31 [Debug] [161647887] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:31 from 127.0.0.1:60419 accepted //th.bing.com:443 [socks >> proxy]
+2025/06/15 02:43:31 [Info] [2511692390] app/dispatcher: sniffed domain: th.bing.com
+2025/06/15 02:43:31 [Info] [2511692390] app/dispatcher: default route for tcp:th.bing.com:443
+2025/06/15 02:43:31 [Info] [2511692390] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:31 [Debug] [2511692390] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:32 [Info] [161647887] proxy/vless/outbound: tunneling request to tcp:th.bing.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:32 [Info] [2511692390] proxy/vless/outbound: tunneling request to tcp:th.bing.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:32 [Debug] [729835272] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:32 [Info] [729835272] proxy/http: request to Method [CONNECT] Host [dict.eudic.net:443] with URL [//dict.eudic.net:443]
+2025/06/15 02:43:32 [Info] [729835272] app/dispatcher: sniffed domain: dict.eudic.net
+2025/06/15 02:43:32 [Info] [729835272] app/dispatcher: default route for tcp:dict.eudic.net:443
+2025/06/15 02:43:32 [Info] [729835272] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:32 from 127.0.0.1:60422 accepted //dict.eudic.net:443 [socks >> proxy]
+2025/06/15 02:43:32 [Debug] [729835272] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:34 [Info] [729835272] proxy/vless/outbound: tunneling request to tcp:dict.eudic.net:443 via 104.129.164.39:8880
+2025/06/15 02:43:34 [Debug] [2525736837] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:34 [Info] [2525736837] proxy/http: request to Method [CONNECT] Host [acrobat.adobe.com:443] with URL [//acrobat.adobe.com:443]
+2025/06/15 02:43:34 [Info] [2525736837] app/dispatcher: sniffed domain: acrobat.adobe.com
+2025/06/15 02:43:34 from 127.0.0.1:60424 accepted //acrobat.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:34 [Info] [2525736837] app/dispatcher: default route for tcp:acrobat.adobe.com:443
+2025/06/15 02:43:34 [Info] [2525736837] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:34 [Debug] [2525736837] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:34 [Debug] [920295377] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:34 [Info] [920295377] proxy/http: request to Method [CONNECT] Host [acrobat.adobe.com:443] with URL [//acrobat.adobe.com:443]
+2025/06/15 02:43:34 from 127.0.0.1:60426 accepted //acrobat.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:34 [Info] [920295377] app/dispatcher: sniffed domain: acrobat.adobe.com
+2025/06/15 02:43:34 [Info] [920295377] app/dispatcher: default route for tcp:acrobat.adobe.com:443
+2025/06/15 02:43:34 [Info] [920295377] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:34 [Debug] [920295377] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:34 [Info] [2525736837] proxy/vless/outbound: tunneling request to tcp:acrobat.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:34 [Info] [920295377] proxy/vless/outbound: tunneling request to tcp:acrobat.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [1198810426] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [1198810426] proxy/http: request to Method [CONNECT] Host [acrobat.adobe.com:443] with URL [//acrobat.adobe.com:443]
+2025/06/15 02:43:35 [Debug] [4148242071] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [4148242071] proxy/http: request to Method [CONNECT] Host [adobeid-na1.services.adobe.com:443] with URL [//adobeid-na1.services.adobe.com:443]
+2025/06/15 02:43:35 [Debug] [1284282062] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [1284282062] proxy/http: request to Method [CONNECT] Host [adobe.tt.omtrdc.net:443] with URL [//adobe.tt.omtrdc.net:443]
+2025/06/15 02:43:35 from 127.0.0.1:60428 accepted //acrobat.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [1198810426] app/dispatcher: sniffed domain: acrobat.adobe.com
+2025/06/15 02:43:35 [Info] [1198810426] app/dispatcher: default route for tcp:acrobat.adobe.com:443
+2025/06/15 02:43:35 [Info] [1198810426] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [1198810426] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [252580529] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [252580529] proxy/http: request to Method [CONNECT] Host [wwwimages2.adobe.com:443] with URL [//wwwimages2.adobe.com:443]
+2025/06/15 02:43:35 [Debug] [314614891] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [314614891] proxy/http: request to Method [CONNECT] Host [use.typekit.net:443] with URL [//use.typekit.net:443]
+2025/06/15 02:43:35 [Info] [4148242071] app/dispatcher: sniffed domain: adobeid-na1.services.adobe.com
+2025/06/15 02:43:35 [Info] [4148242071] app/dispatcher: default route for tcp:adobeid-na1.services.adobe.com:443
+2025/06/15 02:43:35 [Info] [4148242071] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [4148242071] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60429 accepted //adobeid-na1.services.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Debug] [3798111143] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [3798111143] proxy/http: request to Method [CONNECT] Host [static.adobelogin.com:443] with URL [//static.adobelogin.com:443]
+2025/06/15 02:43:35 [Info] [1284282062] app/dispatcher: sniffed domain: adobe.tt.omtrdc.net
+2025/06/15 02:43:35 [Info] [1284282062] app/dispatcher: default route for tcp:adobe.tt.omtrdc.net:443
+2025/06/15 02:43:35 [Info] [1284282062] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60430 accepted //adobe.tt.omtrdc.net:443 [socks >> proxy]
+2025/06/15 02:43:35 [Debug] [1284282062] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [2802759240] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [2802759240] proxy/http: request to Method [CONNECT] Host [sstats.adobe.com:443] with URL [//sstats.adobe.com:443]
+2025/06/15 02:43:35 from 127.0.0.1:60431 accepted //wwwimages2.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [252580529] app/dispatcher: sniffed domain: wwwimages2.adobe.com
+2025/06/15 02:43:35 [Info] [252580529] app/dispatcher: default route for tcp:wwwimages2.adobe.com:443
+2025/06/15 02:43:35 [Info] [252580529] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [252580529] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [1036539542] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [1036539542] proxy/http: request to Method [CONNECT] Host [pdfnow.adobe.io:443] with URL [//pdfnow.adobe.io:443]
+2025/06/15 02:43:35 [Debug] [3510502531] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [3510502531] proxy/http: request to Method [CONNECT] Host [prod.adobeccstatic.com:443] with URL [//prod.adobeccstatic.com:443]
+2025/06/15 02:43:35 [Debug] [3282033802] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [3282033802] proxy/http: request to Method [CONNECT] Host [p.typekit.net:443] with URL [//p.typekit.net:443]
+2025/06/15 02:43:35 from 127.0.0.1:60432 accepted //use.typekit.net:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [314614891] app/dispatcher: sniffed domain: use.typekit.net
+2025/06/15 02:43:35 [Info] [314614891] app/dispatcher: default route for tcp:use.typekit.net:443
+2025/06/15 02:43:35 [Info] [314614891] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [314614891] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [921056503] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [921056503] proxy/http: request to Method [CONNECT] Host [p13n.adobe.io:443] with URL [//p13n.adobe.io:443]
+2025/06/15 02:43:35 from 127.0.0.1:60433 accepted //static.adobelogin.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [3798111143] app/dispatcher: sniffed domain: static.adobelogin.com
+2025/06/15 02:43:35 [Info] [3798111143] app/dispatcher: default route for tcp:static.adobelogin.com:443
+2025/06/15 02:43:35 [Info] [3798111143] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [3798111143] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [1867185658] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [1867185658] proxy/http: request to Method [CONNECT] Host [notify.adobe.io:443] with URL [//notify.adobe.io:443]
+2025/06/15 02:43:35 [Info] [2802759240] app/dispatcher: sniffed domain: sstats.adobe.com
+2025/06/15 02:43:35 [Info] [2802759240] app/dispatcher: default route for tcp:sstats.adobe.com:443
+2025/06/15 02:43:35 [Info] [2802759240] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [2802759240] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60434 accepted //sstats.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Debug] [3312474121] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [3312474121] proxy/http: request to Method [CONNECT] Host [ims-na1.adobelogin.com:443] with URL [//ims-na1.adobelogin.com:443]
+2025/06/15 02:43:35 [Info] [1036539542] app/dispatcher: sniffed domain: pdfnow.adobe.io
+2025/06/15 02:43:35 [Info] [1036539542] app/dispatcher: default route for tcp:pdfnow.adobe.io:443
+2025/06/15 02:43:35 [Info] [1036539542] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [1036539542] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60437 accepted //pdfnow.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:35 from 127.0.0.1:60436 accepted //prod.adobeccstatic.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [3510502531] app/dispatcher: sniffed domain: prod.adobeccstatic.com
+2025/06/15 02:43:35 [Info] [3510502531] app/dispatcher: default route for tcp:prod.adobeccstatic.com:443
+2025/06/15 02:43:35 [Info] [3510502531] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [3510502531] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [1566268057] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [1566268057] proxy/http: request to Method [CONNECT] Host [dc-api-v2.adobecontent.io:443] with URL [//dc-api-v2.adobecontent.io:443]
+2025/06/15 02:43:35 [Info] [3282033802] app/dispatcher: sniffed domain: p.typekit.net
+2025/06/15 02:43:35 [Info] [3282033802] app/dispatcher: default route for tcp:p.typekit.net:443
+2025/06/15 02:43:35 [Info] [3282033802] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [3282033802] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60438 accepted //p.typekit.net:443 [socks >> proxy]
+2025/06/15 02:43:35 [Debug] [4000258761] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [4000258761] proxy/http: request to Method [CONNECT] Host [dc-api.adobe.io:443] with URL [//dc-api.adobe.io:443]
+2025/06/15 02:43:35 [Debug] [654722672] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [654722672] proxy/http: request to Method [CONNECT] Host [dc-api.adobecontent.io:443] with URL [//dc-api.adobecontent.io:443]
+2025/06/15 02:43:35 [Debug] [2646219551] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [2646219551] proxy/http: request to Method [CONNECT] Host [cc-api-data.adobe.io:443] with URL [//cc-api-data.adobe.io:443]
+2025/06/15 02:43:35 [Info] [921056503] app/dispatcher: sniffed domain: p13n.adobe.io
+2025/06/15 02:43:35 [Info] [921056503] app/dispatcher: default route for tcp:p13n.adobe.io:443
+2025/06/15 02:43:35 [Info] [921056503] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [921056503] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60440 accepted //p13n.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [1867185658] app/dispatcher: sniffed domain: notify.adobe.io
+2025/06/15 02:43:35 [Info] [1867185658] app/dispatcher: default route for tcp:notify.adobe.io:443
+2025/06/15 02:43:35 [Info] [1867185658] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [1867185658] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60441 accepted //notify.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [3312474121] app/dispatcher: sniffed domain: ims-na1.adobelogin.com
+2025/06/15 02:43:35 [Info] [3312474121] app/dispatcher: default route for tcp:ims-na1.adobelogin.com:443
+2025/06/15 02:43:35 [Info] [3312474121] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [3312474121] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60444 accepted //ims-na1.adobelogin.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Debug] [673365553] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [673365553] proxy/http: request to Method [CONNECT] Host [assets.adobedtm.com:443] with URL [//assets.adobedtm.com:443]
+2025/06/15 02:43:35 from 127.0.0.1:60445 accepted //dc-api-v2.adobecontent.io:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [1566268057] app/dispatcher: sniffed domain: dc-api-v2.adobecontent.io
+2025/06/15 02:43:35 [Info] [1566268057] app/dispatcher: default route for tcp:dc-api-v2.adobecontent.io:443
+2025/06/15 02:43:35 [Info] [1566268057] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [1566268057] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60449 accepted //dc-api.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:35 from 127.0.0.1:60447 accepted //dc-api.adobecontent.io:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [4000258761] app/dispatcher: sniffed domain: dc-api.adobe.io
+2025/06/15 02:43:35 [Info] [4000258761] app/dispatcher: default route for tcp:dc-api.adobe.io:443
+2025/06/15 02:43:35 [Info] [4000258761] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [4000258761] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [654722672] app/dispatcher: sniffed domain: dc-api.adobecontent.io
+2025/06/15 02:43:35 [Info] [654722672] app/dispatcher: default route for tcp:dc-api.adobecontent.io:443
+2025/06/15 02:43:35 [Info] [654722672] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [654722672] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [2646219551] app/dispatcher: sniffed domain: cc-api-data.adobe.io
+2025/06/15 02:43:35 [Info] [2646219551] app/dispatcher: default route for tcp:cc-api-data.adobe.io:443
+2025/06/15 02:43:35 [Info] [2646219551] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [2646219551] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60450 accepted //cc-api-data.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [673365553] app/dispatcher: sniffed domain: assets.adobedtm.com
+2025/06/15 02:43:35 [Info] [673365553] app/dispatcher: default route for tcp:assets.adobedtm.com:443
+2025/06/15 02:43:35 [Info] [673365553] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60453 accepted //assets.adobedtm.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Debug] [673365553] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [252580529] proxy/vless/outbound: tunneling request to tcp:wwwimages2.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [2802759240] proxy/vless/outbound: tunneling request to tcp:sstats.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [4000258761] proxy/vless/outbound: tunneling request to tcp:dc-api.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [921056503] proxy/vless/outbound: tunneling request to tcp:p13n.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [3393830323] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [3393830323] proxy/http: request to Method [CONNECT] Host [api.echosign.com:443] with URL [//api.echosign.com:443]
+2025/06/15 02:43:35 [Info] [3393830323] app/dispatcher: sniffed domain: api.echosign.com
+2025/06/15 02:43:35 [Info] [3393830323] app/dispatcher: default route for tcp:api.echosign.com:443
+2025/06/15 02:43:35 [Info] [3393830323] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [3393830323] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60464 accepted //api.echosign.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [4148242071] proxy/vless/outbound: tunneling request to tcp:adobeid-na1.services.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [3510502531] proxy/vless/outbound: tunneling request to tcp:prod.adobeccstatic.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [2646219551] proxy/vless/outbound: tunneling request to tcp:cc-api-data.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [3798111143] proxy/vless/outbound: tunneling request to tcp:static.adobelogin.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [3282033802] proxy/vless/outbound: tunneling request to tcp:p.typekit.net:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [1284282062] proxy/vless/outbound: tunneling request to tcp:adobe.tt.omtrdc.net:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [1036539542] proxy/vless/outbound: tunneling request to tcp:pdfnow.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [673365553] proxy/vless/outbound: tunneling request to tcp:assets.adobedtm.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [314614891] proxy/vless/outbound: tunneling request to tcp:use.typekit.net:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [1867185658] proxy/vless/outbound: tunneling request to tcp:notify.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [1198810426] proxy/vless/outbound: tunneling request to tcp:acrobat.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [654722672] proxy/vless/outbound: tunneling request to tcp:dc-api.adobecontent.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [3312474121] proxy/vless/outbound: tunneling request to tcp:ims-na1.adobelogin.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [1566268057] proxy/vless/outbound: tunneling request to tcp:dc-api-v2.adobecontent.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [3227173002] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [3227173002] proxy/http: request to Method [CONNECT] Host [auth.services.adobe.com:443] with URL [//auth.services.adobe.com:443]
+2025/06/15 02:43:35 from 127.0.0.1:60466 accepted //auth.services.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Info] [3227173002] app/dispatcher: sniffed domain: auth.services.adobe.com
+2025/06/15 02:43:35 [Info] [3227173002] app/dispatcher: default route for tcp:auth.services.adobe.com:443
+2025/06/15 02:43:35 [Info] [3227173002] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Debug] [3227173002] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 [Info] [4148242071] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:35 [Info] [4148242071] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:35 [Debug] [15679347] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:35 [Info] [15679347] proxy/http: request to Method [CONNECT] Host [adobeid-na1.services.adobe.com:443] with URL [//adobeid-na1.services.adobe.com:443]
+2025/06/15 02:43:35 [Info] [15679347] app/dispatcher: sniffed domain: adobeid-na1.services.adobe.com
+2025/06/15 02:43:35 [Info] [15679347] app/dispatcher: default route for tcp:adobeid-na1.services.adobe.com:443
+2025/06/15 02:43:35 [Info] [15679347] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:35 from 127.0.0.1:60468 accepted //adobeid-na1.services.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:35 [Debug] [15679347] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 [Debug] [2984955148] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:36 [Info] [2984955148] proxy/http: request to Method [CONNECT] Host [prod.adobeccstatic.com:443] with URL [//prod.adobeccstatic.com:443]
+2025/06/15 02:43:36 [Info] [2984955148] app/dispatcher: sniffed domain: prod.adobeccstatic.com
+2025/06/15 02:43:36 [Info] [2984955148] app/dispatcher: default route for tcp:prod.adobeccstatic.com:443
+2025/06/15 02:43:36 [Info] [2984955148] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 from 127.0.0.1:60470 accepted //prod.adobeccstatic.com:443 [socks >> proxy]
+2025/06/15 02:43:36 [Debug] [2984955148] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 [Info] [3393830323] proxy/vless/outbound: tunneling request to tcp:api.echosign.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:36 [Info] [3312474121] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:36 [Info] [3312474121] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:36 [Debug] [1142966484] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:36 [Info] [1142966484] proxy/http: request to Method [CONNECT] Host [ims-na1.adobelogin.com:443] with URL [//ims-na1.adobelogin.com:443]
+2025/06/15 02:43:36 [Info] [1142966484] app/dispatcher: sniffed domain: ims-na1.adobelogin.com
+2025/06/15 02:43:36 [Info] [1142966484] app/dispatcher: default route for tcp:ims-na1.adobelogin.com:443
+2025/06/15 02:43:36 [Info] [1142966484] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 from 127.0.0.1:60472 accepted //ims-na1.adobelogin.com:443 [socks >> proxy]
+2025/06/15 02:43:36 [Debug] [1142966484] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 [Info] [1127741124] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [1018054566] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [163790646] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [2442479456] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [1412986820] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [3128368799] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [117667580] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [2324911667] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [2511692390] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [1905211831] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [3227173002] proxy/vless/outbound: tunneling request to tcp:auth.services.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:36 [Info] [15679347] proxy/vless/outbound: tunneling request to tcp:adobeid-na1.services.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:36 [Info] [2984955148] proxy/vless/outbound: tunneling request to tcp:prod.adobeccstatic.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:36 [Info] [1142966484] proxy/vless/outbound: tunneling request to tcp:ims-na1.adobelogin.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:36 [Info] [729835272] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:36 [Info] [3227173002] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:36 [Info] [3227173002] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:36 [Debug] [3846981089] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:36 [Info] [3846981089] proxy/http: request to Method [CONNECT] Host [auth.services.adobe.com:443] with URL [//auth.services.adobe.com:443]
+2025/06/15 02:43:36 [Info] [3846981089] app/dispatcher: sniffed domain: auth.services.adobe.com
+2025/06/15 02:43:36 [Info] [3846981089] app/dispatcher: default route for tcp:auth.services.adobe.com:443
+2025/06/15 02:43:36 from 127.0.0.1:60474 accepted //auth.services.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:36 [Info] [3846981089] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 [Debug] [3846981089] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 [Info] [1142966484] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:36 [Info] [1142966484] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:36 [Info] [15679347] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:36 [Info] [15679347] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:36 [Debug] [1559097038] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:36 [Info] [1559097038] proxy/http: request to Method [CONNECT] Host [adobeid-na1.services.adobe.com:443] with URL [//adobeid-na1.services.adobe.com:443]
+2025/06/15 02:43:36 [Info] [1559097038] app/dispatcher: sniffed domain: adobeid-na1.services.adobe.com
+2025/06/15 02:43:36 [Info] [1559097038] app/dispatcher: default route for tcp:adobeid-na1.services.adobe.com:443
+2025/06/15 02:43:36 [Info] [1559097038] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 [Debug] [1559097038] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:36 from 127.0.0.1:60476 accepted //adobeid-na1.services.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:37 [Info] [3846981089] proxy/vless/outbound: tunneling request to tcp:auth.services.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:37 [Info] [2525736837] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:37 [Info] [1559097038] proxy/vless/outbound: tunneling request to tcp:adobeid-na1.services.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:37 [Info] [3846981089] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:37 [Info] [3846981089] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:37 [Debug] [285478657] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:37 [Info] [285478657] proxy/http: request to Method [CONNECT] Host [assets.adobedtm.com:443] with URL [//assets.adobedtm.com:443]
+2025/06/15 02:43:37 [Info] [285478657] app/dispatcher: sniffed domain: assets.adobedtm.com
+2025/06/15 02:43:37 [Info] [285478657] app/dispatcher: default route for tcp:assets.adobedtm.com:443
+2025/06/15 02:43:37 from 127.0.0.1:60478 accepted //assets.adobedtm.com:443 [socks >> proxy]
+2025/06/15 02:43:37 [Info] [285478657] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:37 [Debug] [285478657] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:37 [Info] [1559097038] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:37 [Info] [1559097038] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:37 [Debug] [3630993604] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:37 [Info] [3630993604] proxy/http: request to Method [CONNECT] Host [adobeid-na1.services.adobe.com:443] with URL [//adobeid-na1.services.adobe.com:443]
+2025/06/15 02:43:37 [Info] [3630993604] app/dispatcher: sniffed domain: adobeid-na1.services.adobe.com
+2025/06/15 02:43:37 [Info] [3630993604] app/dispatcher: default route for tcp:adobeid-na1.services.adobe.com:443
+2025/06/15 02:43:37 [Info] [3630993604] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:37 [Debug] [3630993604] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:37 from 127.0.0.1:60480 accepted //adobeid-na1.services.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:37 [Info] [252580529] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:38 [Info] [673365553] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:38 [Info] [285478657] proxy/vless/outbound: tunneling request to tcp:assets.adobedtm.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [2038498158] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:38 [Info] [2038498158] proxy/http: request to Method [CONNECT] Host [dict.eudic.net:443] with URL [//dict.eudic.net:443]
+2025/06/15 02:43:38 [Info] [2038498158] app/dispatcher: sniffed domain: dict.eudic.net
+2025/06/15 02:43:38 [Info] [2038498158] app/dispatcher: default route for tcp:dict.eudic.net:443
+2025/06/15 02:43:38 [Info] [2038498158] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [2038498158] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 from 127.0.0.1:60482 accepted //dict.eudic.net:443 [socks >> proxy]
+2025/06/15 02:43:38 [Debug] [1639384231] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:38 [Info] [1639384231] proxy/http: request to Method [CONNECT] Host [dc-api.adobe.io:443] with URL [//dc-api.adobe.io:443]
+2025/06/15 02:43:38 [Info] [1639384231] app/dispatcher: sniffed domain: dc-api.adobe.io
+2025/06/15 02:43:38 [Info] [1639384231] app/dispatcher: default route for tcp:dc-api.adobe.io:443
+2025/06/15 02:43:38 [Info] [1639384231] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [1639384231] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [1617969] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:38 [Info] [1617969] proxy/http: request to Method [CONNECT] Host [dc-api.adobe.io:443] with URL [//dc-api.adobe.io:443]
+2025/06/15 02:43:38 from 127.0.0.1:60484 accepted //dc-api.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:38 [Info] [1617969] app/dispatcher: sniffed domain: dc-api.adobe.io
+2025/06/15 02:43:38 [Info] [1617969] app/dispatcher: default route for tcp:dc-api.adobe.io:443
+2025/06/15 02:43:38 from 127.0.0.1:60485 accepted //dc-api.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:38 [Info] [1617969] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [1617969] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [2360257806] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:38 [Info] [2360257806] proxy/http: request to Method [CONNECT] Host [dc-api.adobe.io:443] with URL [//dc-api.adobe.io:443]
+2025/06/15 02:43:38 [Info] [2360257806] app/dispatcher: sniffed domain: dc-api.adobe.io
+2025/06/15 02:43:38 [Info] [2360257806] app/dispatcher: default route for tcp:dc-api.adobe.io:443
+2025/06/15 02:43:38 [Info] [2360257806] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 from 127.0.0.1:60488 accepted //dc-api.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:38 [Debug] [2360257806] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Info] [2038498158] proxy/vless/outbound: tunneling request to tcp:dict.eudic.net:443 via 104.129.164.39:8880
+2025/06/15 02:43:38 [Info] [1639384231] proxy/vless/outbound: tunneling request to tcp:dc-api.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:38 [Info] [1617969] proxy/vless/outbound: tunneling request to tcp:dc-api.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [3142579353] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:38 [Info] [3142579353] proxy/http: request to Method [CONNECT] Host [dc-api.adobe.io:443] with URL [//dc-api.adobe.io:443]
+2025/06/15 02:43:38 [Info] [3142579353] app/dispatcher: sniffed domain: dc-api.adobe.io
+2025/06/15 02:43:38 [Info] [3142579353] app/dispatcher: default route for tcp:dc-api.adobe.io:443
+2025/06/15 02:43:38 [Info] [3142579353] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [3142579353] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 from 127.0.0.1:60490 accepted //dc-api.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:38 [Info] [2360257806] proxy/vless/outbound: tunneling request to tcp:dc-api.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [2297286697] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:38 [Info] [2297286697] proxy/http: request to Method [CONNECT] Host [dc-api.adobe.io:443] with URL [//dc-api.adobe.io:443]
+2025/06/15 02:43:38 from 127.0.0.1:60492 accepted //dc-api.adobe.io:443 [socks >> proxy]
+2025/06/15 02:43:38 [Info] [2297286697] app/dispatcher: sniffed domain: dc-api.adobe.io
+2025/06/15 02:43:38 [Info] [2297286697] app/dispatcher: default route for tcp:dc-api.adobe.io:443
+2025/06/15 02:43:38 [Info] [2297286697] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Debug] [2297286697] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:38 [Info] [3630993604] proxy/vless/outbound: tunneling request to tcp:adobeid-na1.services.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:39 [Info] [3142579353] proxy/vless/outbound: tunneling request to tcp:dc-api.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:39 [Info] [1198810426] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:39 [Info] [1284282062] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:39 [Info] [2297286697] proxy/vless/outbound: tunneling request to tcp:dc-api.adobe.io:443 via 104.129.164.39:8880
+2025/06/15 02:43:39 [Info] [3393830323] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:39 [Info] [2646219551] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:39 [Debug] [4040377422] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:39 [Info] [4040377422] proxy/http: request to Method [CONNECT] Host [api.demandbase.com:443] with URL [//api.demandbase.com:443]
+2025/06/15 02:43:39 [Info] [4040377422] app/dispatcher: sniffed domain: api.demandbase.com
+2025/06/15 02:43:39 [Info] [4040377422] app/dispatcher: default route for tcp:api.demandbase.com:443
+2025/06/15 02:43:39 [Info] [4040377422] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:39 from 127.0.0.1:60494 accepted //api.demandbase.com:443 [socks >> proxy]
+2025/06/15 02:43:39 [Debug] [4040377422] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:39 [Info] [1566268057] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:40 [Info] [4040377422] proxy/vless/outbound: tunneling request to tcp:api.demandbase.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:40 [Debug] [2426197602] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:40 [Info] [2426197602] proxy/http: request to Method [CONNECT] Host [adobeid-na1.services.adobe.com:443] with URL [//adobeid-na1.services.adobe.com:443]
+2025/06/15 02:43:40 [Info] [2426197602] app/dispatcher: sniffed domain: adobeid-na1.services.adobe.com
+2025/06/15 02:43:40 [Info] [2426197602] app/dispatcher: default route for tcp:adobeid-na1.services.adobe.com:443
+2025/06/15 02:43:40 [Info] [2426197602] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:40 from 127.0.0.1:60496 accepted //adobeid-na1.services.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:40 [Debug] [2426197602] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:40 [Info] [4000258761] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:40 [Info] [2426197602] proxy/vless/outbound: tunneling request to tcp:adobeid-na1.services.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:41 [Info] [2426197602] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:41 [Info] [2426197602] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:41 [Debug] [1723991485] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:43:41 [Info] [1723991485] proxy/http: request to Method [CONNECT] Host [adobeid-na1.services.adobe.com:443] with URL [//adobeid-na1.services.adobe.com:443]
+2025/06/15 02:43:41 [Info] [1723991485] app/dispatcher: sniffed domain: adobeid-na1.services.adobe.com
+2025/06/15 02:43:41 [Info] [1723991485] app/dispatcher: default route for tcp:adobeid-na1.services.adobe.com:443
+2025/06/15 02:43:41 [Info] [1723991485] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:43:41 from 127.0.0.1:60498 accepted //adobeid-na1.services.adobe.com:443 [socks >> proxy]
+2025/06/15 02:43:41 [Debug] [1723991485] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:43:41 [Info] [2360257806] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:41 [Info] [1723991485] proxy/vless/outbound: tunneling request to tcp:adobeid-na1.services.adobe.com:443 via 104.129.164.39:8880
+2025/06/15 02:43:41 [Info] [1723991485] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to decode response header > proxy/vless/encoding: failed to read response version > websocket: close 1005 (no status)
+2025/06/15 02:43:41 [Info] [1723991485] app/proxyman/inbound: connection ends > proxy/http: connection ends > io: read/write on closed pipe
+2025/06/15 02:43:50 [Info] [4176830186] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [314614891] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [2984955148] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [4040377422] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [1639384231] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [3510502531] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [1864227565] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [1036539542] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [1617969] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [2022651391] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [2802759240] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [285478657] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [654722672] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [2038498158] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [1867185658] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [2034587830] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [921056503] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [3630993604] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [4167785556] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [161647887] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [3282033802] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [2297286697] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [3196494658] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [3142579353] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [920295377] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [3968893130] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [1842795743] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [3798111143] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [1489530687] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [71387541] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:43:59 [Info] [501295927] app/proxyman/inbound: connection ends > proxy/http: connection ends > context canceled
+2025/06/15 02:44:07 [Debug] [781025475] proxy/socks: Not Socks request, try to parse as HTTP request
+2025/06/15 02:44:07 [Info] [781025475] proxy/http: request to Method [CONNECT] Host [www.bing.com:443] with URL [//www.bing.com:443]
+2025/06/15 02:44:07 [Info] [781025475] app/dispatcher: sniffed domain: www.bing.com
+2025/06/15 02:44:07 from 127.0.0.1:60500 accepted //www.bing.com:443 [socks >> proxy]
+2025/06/15 02:44:07 [Info] [781025475] app/dispatcher: default route for tcp:www.bing.com:443
+2025/06/15 02:44:07 [Info] [781025475] transport/internet/websocket: creating connection to tcp:104.129.164.39:8880
+2025/06/15 02:44:07 [Debug] [781025475] transport/internet: dialing to tcp:104.129.164.39:8880
+2025/06/15 02:44:07 [Info] [781025475] proxy/vless/outbound: tunneling request to tcp:www.bing.com:443 via 104.129.164.39:8880

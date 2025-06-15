@@ -17,7 +17,8 @@
     "outboundTag": "direct",
     "domain": [
       "domain:taobao.com",
-      "domain:tmall.com"
+      "domain:tmall.com",
+      "domain:adobe.com"
     ],
     "enabled": true,
     "remarks": "precise_direct_domain"
