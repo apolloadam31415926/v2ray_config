@@ -2,7 +2,7 @@
   {
     "port": "0-65535",
     "network": "tcp",
-    "outboundTag": "proxy",
+    "outboundTag": "direct",
     "enabled": true,
     "remarks": "direct_domain"
   }
