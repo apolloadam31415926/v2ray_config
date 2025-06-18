@@ -21,3 +21,6 @@ https://raw.githubusercontent.com/apolloadam31415926/v2ray_config/refs/heads/fea
 ```
 https://raw.githubusercontent.com/apolloadam31415926/v2ray_config/refs/heads/feature/route/97_rule_all_proxy.json
 ```
+```
+https://raw.githubusercontent.com/apolloadam31415926/v2ray_config/refs/heads/feature/route/99_rule_null.json
+```
